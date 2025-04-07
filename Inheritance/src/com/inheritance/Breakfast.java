@@ -20,4 +20,9 @@ public class Breakfast {
     public void cleanUp() {
         System.out.println("Running cleanUp in Breakfast");
     }
+
+    public void price() {
+        System.out.println("Running price in Breakfast");
+    }
+
 }

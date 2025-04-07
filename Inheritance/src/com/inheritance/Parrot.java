@@ -29,4 +29,9 @@ public class Parrot extends Bird {
     public void migrate() {
         System.out.println("Parrots usually stay in warm places and don’t migrate much");
     }
+
+    public void color() {
+        System.out.println("Parrot has bright green feathers with colorful accents");
+    }
+
 }

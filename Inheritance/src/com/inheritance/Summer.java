@@ -29,4 +29,9 @@ public class Summer extends Season {
     public void clothing() {
         System.out.println("Light and cotton clothes are worn during summer");
     }
+
+    public void heatAlert() {
+        System.out.println("Heatwave alert: Stay hydrated and avoid peak hours");
+    }
+
 }

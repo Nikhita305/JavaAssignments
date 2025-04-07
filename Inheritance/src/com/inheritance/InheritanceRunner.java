@@ -30,6 +30,13 @@ public class InheritanceRunner {
         guitar.polish();
         guitar.carry();
 
+        System.out.println();
+
+        Violin violin = new Violin();
+        violin.play(instrument);
+        violin.play(instrument1);
+        violin.play(guitar);
+
         System.out.println("*********** 2 ***********");
 
         Appliance appliance = new Appliance();
@@ -56,6 +63,11 @@ public class InheritanceRunner {
         wm.setTimer();
         wm.consumePower();
         wm.showStatus();
+
+        Refridgerator ref = new Refridgerator();
+        ref.on(appliance);
+        ref.on(wm);
+        ref.on(appliance1);
 
         System.out.println("********* 3 ***********");
 
@@ -85,6 +97,14 @@ public class InheritanceRunner {
         dosa.eat();
         dosa.cleanUp();
 
+        System.out.println();
+
+        Idli idli = new Idli();
+        idli.quality(breakfast);
+        idli.quality(breakfast1);
+        idli.quality(dosa);
+
+
         System.out.println("*********** 4 ***********");
 
         Cartoon cartoon = new Cartoon();
@@ -112,6 +132,11 @@ public class InheritanceRunner {
         doremon.entertain();
         doremon.speak();
         doremon.run();
+
+        Barbie barbie = new Barbie();
+        barbie.dressUp(cartoon);
+        barbie.dressUp(doremon);
+        barbie.dressUp(cartoon1);
 
         System.out.println("-----5-----");
         Vehicle vehicle = new Vehicle();
@@ -141,6 +166,12 @@ public class InheritanceRunner {
         vehicle1.honk();
         vehicle1.service();
 
+        System.out.println();
+
+        Jeep jeep = new Jeep();
+        jeep.start(vehicle);
+        jeep.start(vehicle1);
+        jeep.start(car);
 
         System.out.println("***** 6 *****");
         Dress dress = new Dress();
@@ -166,6 +197,11 @@ public class InheritanceRunner {
         dress1.iron();
         dress1.pack();
 
+        Top top = new Top();
+        top.design(dress);
+        top.design(dress1);
+        top.design(jeans);
+
         System.out.println("**** 7 ******");
         Shampoo shampoo = new Shampoo();
         shampoo.apply();
@@ -189,6 +225,12 @@ public class InheritanceRunner {
         shampoo1.foam();
         shampoo1.fragrance();
         shampoo1.pack();
+
+        Pantene pantene = new Pantene();
+        pantene.smell(shampoo);
+        pantene.smell(shampoo1);
+        pantene.smell(bblunt);
+
 
         System.out.println("***** 8 *****");
         Fruit fruit = new Fruit();
@@ -214,6 +256,11 @@ public class InheritanceRunner {
         fruit1.season();
         fruit1.benefits();
 
+        Rasin rasin = new Rasin();
+        rasin.color(fruit);
+        rasin.color(fruit1);
+        rasin.color(grape);
+
         System.out.println("**** 9 ******");
         Drink drink = new Drink();
         drink.prepare();
@@ -237,6 +284,12 @@ public class InheritanceRunner {
         drink1.taste();
         drink1.temperature();
         drink1.pack();
+
+        Tea tea = new Tea();
+        tea.taste(drink1);
+        tea.taste(drink);
+        tea.taste(coffee);
+
 
         System.out.println("***** 10 *****");
         Game game = new Game();
@@ -262,6 +315,11 @@ public class InheritanceRunner {
         game1.end();
         game1.save();
 
+        Ludo ludo = new Ludo();
+        ludo.play(game);
+        ludo.play(game1);
+        ludo.play(chess);
+
         System.out.println("***** 11 *****");
         Planet planet = new Planet();
         planet.rotate();
@@ -285,6 +343,11 @@ public class InheritanceRunner {
         planet1.supportLife();
         planet1.temperature();
         planet1.atmosphere();
+
+        Mars mars = new Mars();
+        mars.size(planet);
+        mars.size(planet1);
+        mars.size(earth);
 
         System.out.println("****** 12 ****");
         Festival festival = new Festival();
@@ -310,6 +373,11 @@ public class InheritanceRunner {
         festival1.eat();
         festival1.enjoy();
 
+        Onam onam = new Onam();
+        onam.eat(festival);
+        onam.eat(festival1);
+        onam.eat(diwali);
+
         System.out.println("***** 13 *****");
         Music music = new Music();
         music.play();
@@ -333,6 +401,11 @@ public class InheritanceRunner {
         music1.stop();
         music1.adjustVolume();
         music1.selectTrack();
+
+        Western western = new Western();
+        western.vibe(music);
+        western.vibe(music1);
+        western.vibe(classical);
 
         System.out.println("***** 14 *****");
         Food food = new Food();
@@ -358,6 +431,11 @@ public class InheritanceRunner {
         food1.eat();
         food1.cleanUp();
 
+        Burger burger = new Burger();
+        burger.price(food);
+        burger.price(food1);
+        burger.price(pizza);
+
         System.out.println("***** 15 *****");
         Machine machine = new Machine();
         machine.start();
@@ -381,6 +459,11 @@ public class InheritanceRunner {
         machine1.process();
         machine1.status();
         machine1.maintain();
+
+        Vaccum vaccum = new Vaccum();
+        vaccum.clean(machine);
+        vaccum.clean(machine1);
+        vaccum.clean(robot);
 
         System.out.println("****** 16 ****");
         Ocean ocean = new Ocean();
@@ -406,6 +489,11 @@ public class InheritanceRunner {
         ocean1.biodiversity();
         ocean1.currents();
 
+        Arabian arabian = new Arabian();
+        arabian.wave(ocean);
+        arabian.wave(ocean1);
+        arabian.wave(pacific);
+
         System.out.println("***** 17 *****");
         Art art = new Art();
         art.create();
@@ -429,6 +517,11 @@ public class InheritanceRunner {
         art1.inspire();
         art1.sell();
         art1.preserve();
+
+        Drawing drawing = new Drawing();
+        drawing.draw(painting);
+        drawing.draw(art);
+        drawing.draw(art1);
 
         System.out.println("***** 18 *****");
         School school = new School();
@@ -454,6 +547,11 @@ public class InheritanceRunner {
         school1.exam();
         school1.close();
 
+        Primary primary = new Primary();
+        primary.homework(school);
+        primary.homework(school1);
+        primary.homework(highSchool);
+
         System.out.println("****** 19 ****");
         Company company = new Company();
         company.register();
@@ -477,6 +575,11 @@ public class InheritanceRunner {
         company1.operate();
         company1.grow();
         company1.payTaxes();
+
+        Mnc mnc = new Mnc();
+        mnc.train(company);
+        mnc.train(company1);
+        mnc.train(startup);
 
 
         System.out.println("**** 20 ******");
@@ -503,6 +606,11 @@ public class InheritanceRunner {
         plant1.reproduce();
         plant1.survive();
 
+        Jasmin jasmin = new Jasmin();
+        jasmin.smell(plant);
+        jasmin.smell(sunflower);
+        jasmin.smell(plant1);
+
         System.out.println("***** 21 *****");
         Device device = new Device();
         device.start();
@@ -526,6 +634,11 @@ public class InheritanceRunner {
         device1.charge();
         device1.performTask();
         device1.update();
+
+        Technician technician = new Technician();
+        technician.inspect(device);
+        technician.inspect(laptop);
+        technician.inspect(device1);
 
         System.out.println("***** 22 *****");
         Animal animal = new Animal();
@@ -551,6 +664,12 @@ public class InheritanceRunner {
         animal1.sound();
         animal1.habitat();
 
+        Zookeeper zookeeper = new Zookeeper();
+        zookeeper.observe(animal);
+        zookeeper.observe(tiger);
+        zookeeper.observe(animal1);
+
+
         System.out.println("****** 23 ****");
         Galaxy galaxy = new Galaxy();
         galaxy.rotate();
@@ -574,6 +693,12 @@ public class InheritanceRunner {
         galaxy1.containStars();
         galaxy1.emitLight();
         galaxy1.hasBlackHole();
+
+        Astronomer astronomer = new Astronomer();
+        astronomer.study(galaxy);
+        astronomer.study(milkyWay);
+        astronomer.study(galaxy1);
+
 
         System.out.println("****** 24 ****");
         Bird bird = new Bird();
@@ -599,6 +724,12 @@ public class InheritanceRunner {
         bird1.eat();
         bird1.migrate();
 
+        Ornithologist ornithologist = new Ornithologist();
+        ornithologist.observe(bird);
+        ornithologist.observe(parrot);
+        ornithologist.observe(bird1);
+
+
         System.out.println("***** 25 *****");
         Flower flower = new Flower();
         flower.bloom();
@@ -622,6 +753,12 @@ public class InheritanceRunner {
         flower1.photosynthesize();
         flower1.attractBees();
         flower1.wilt();
+
+        Gardener gardener = new Gardener();
+        gardener.care(flower);
+        gardener.care(rose);
+        gardener.care(flower1);
+
 
         System.out.println("****** 26 ****");
         Building building = new Building();
@@ -647,6 +784,12 @@ public class InheritanceRunner {
         building1.clean();
         building1.lock();
 
+        Architect architect = new Architect();
+        architect.design(building);
+        architect.design(temple);
+        architect.design(building1);
+
+
         System.out.println("***** 27 *****");
         Country country = new Country();
         country.name();
@@ -670,6 +813,11 @@ public class InheritanceRunner {
         country1.language();
         country1.capital();
         country1.currency();
+
+        Diplomat diplomat = new Diplomat();
+        diplomat.visit(country);
+        diplomat.visit(india);
+        diplomat.visit(country1);
 
         System.out.println("****** 28 ****");
         Profession profession = new Profession();
@@ -695,6 +843,12 @@ public class InheritanceRunner {
         profession1.income();
         profession1.responsibility();
 
+        CareerGuide careerGuide = new CareerGuide();
+        careerGuide.advise(profession);
+        careerGuide.advise(engineering);
+        careerGuide.advise(profession1);
+
+
         System.out.println("**** 29 ******");
         Emotion emotion = new Emotion();
         emotion.type();
@@ -718,6 +872,12 @@ public class InheritanceRunner {
         emotion1.impact();
         emotion1.duration();
         emotion1.intensity();
+
+        Therapist therapist = new Therapist();
+        therapist.analyze(emotion);
+        therapist.analyze(happiness);
+        therapist.analyze(emotion1);
+
 
         System.out.println("**** 30 ******");
         Language language = new Language();
@@ -743,6 +903,11 @@ public class InheritanceRunner {
         language1.speakers();
         language1.importance();
 
+        Linguist linguist = new Linguist();
+        linguist.research(language);
+        linguist.research(kannada);
+        linguist.research(language1);
+
         System.out.println("***** 31 *****");
         Tree tree = new Tree();
         tree.type();
@@ -766,6 +931,12 @@ public class InheritanceRunner {
         tree1.leaves();
         tree1.benefits();
         tree1.lifespan();
+
+        Botanist botanist = new Botanist();
+        botanist.study(tree);
+        botanist.study(coconut);
+        botanist.study(tree1);
+
 
         System.out.println("***** 32 *****");
         River river = new River();
@@ -791,6 +962,11 @@ public class InheritanceRunner {
         river1.flowDirection();
         river1.importance();
 
+        Hydrologist hydrologist = new Hydrologist();
+        hydrologist.research(river);
+        hydrologist.research(ganga);
+        hydrologist.research(river1);
+
         System.out.println("***** 33 *****");
         Mountain mountain = new Mountain();
         mountain.name();
@@ -814,6 +990,12 @@ public class InheritanceRunner {
         mountain1.location();
         mountain1.climate();
         mountain1.importance();
+
+        Geographer geographer = new Geographer();
+        geographer.study(mountain);
+        geographer.study(himalaya);
+        geographer.study(mountain1);
+
 
         System.out.println("***** 34 *****");
         Currency currency = new Currency();
@@ -839,6 +1021,12 @@ public class InheritanceRunner {
         currency1.value();
         currency1.usage();
 
+        Economist economist = new Economist();
+        economist.analyze(currency);
+        economist.analyze(rupee);
+        economist.analyze(currency1);
+
+
         System.out.println("***** 35 *****");
         Vegetable vegetable = new Vegetable();
         vegetable.name();
@@ -862,6 +1050,12 @@ public class InheritanceRunner {
         vegetable1.taste();
         vegetable1.nutrients();
         vegetable1.season();
+
+        Chef chef = new Chef();
+        chef.cook(vegetable);
+        chef.cook(onion);
+        chef.cook(vegetable1);
+
 
         System.out.println("**** 36 ******");
         City city = new City();
@@ -887,6 +1081,12 @@ public class InheritanceRunner {
         city1.climate();
         city1.transportation();
 
+        Traveler traveler = new Traveler();
+        traveler.visit(city);
+        traveler.visit(bengaluru);
+        traveler.visit(city1);
+
+
         System.out.println("**** 37 ******");
         Color color = new Color();
         color.name();
@@ -910,6 +1110,11 @@ public class InheritanceRunner {
         color1.emotion();
         color1.usedIn();
         color1.combination();
+
+        Creator creator = new Creator();
+        creator.apply(color);
+        creator.apply(purple);
+        creator.apply(color1);
 
         System.out.println("***** 38 *****");
         Toy toy = new Toy();
@@ -935,6 +1140,12 @@ public class InheritanceRunner {
         toy1.purpose();
         toy1.ageGroup();
 
+        Child child = new Child();
+        child.play(toy);
+        child.play(teddy);
+        child.play(toy1);
+
+
         System.out.println("***** 39 *****");
         Mobile mobile = new Mobile();
         mobile.brand();
@@ -958,6 +1169,12 @@ public class InheritanceRunner {
         mobile1.battery();
         mobile1.camera();
         mobile1.storage();
+
+        Shopkeeper shopkeeper = new Shopkeeper();
+        shopkeeper.display(mobile);
+        shopkeeper.display(redmi);
+        shopkeeper.display(mobile1);
+
 
         System.out.println("***** 40 *****");
         Book book = new Book();
@@ -983,6 +1200,12 @@ public class InheritanceRunner {
         book1.pages();
         book1.language();
 
+        Librarian librarian = new Librarian();
+        librarian.read(book);
+        librarian.read(novel);
+        librarian.read(book1);
+
+
         System.out.println("***** 41 *****");
         Beverage beverage = new Beverage();
         beverage.name();
@@ -1006,6 +1229,12 @@ public class InheritanceRunner {
         beverage1.ingredients();
         beverage1.taste();
         beverage1.occasion();
+
+        Cafe cafe = new Cafe();
+        cafe.serve(beverage);
+        cafe.serve(bubbleTea);
+        cafe.serve(beverage1);
+
 
         System.out.println("***** 42 *****");
         Ride ride = new Ride();
@@ -1031,6 +1260,12 @@ public class InheritanceRunner {
         ride1.thrillLevel();
         ride1.safety();
 
+        AmusementPark amusementPark = new AmusementPark();
+        amusementPark.enjoy(ride);
+        amusementPark.enjoy(rc);
+        amusementPark.enjoy(ride1);
+
+
         System.out.println("***** 43 *****");
         Chaats chaats = new Chaats();
         chaats.name();
@@ -1054,6 +1289,12 @@ public class InheritanceRunner {
         chaats1.origin();
         chaats1.taste();
         chaats1.served();
+
+        FoodStall foodStall = new FoodStall();
+        foodStall.serve(chaats);
+        foodStall.serve(pani);
+        foodStall.serve(chaats1);
+
 
         System.out.println("***** 44 *****");
         Snack snack = new Snack();
@@ -1079,6 +1320,12 @@ public class InheritanceRunner {
         snack1.served();
         snack1.popularity();
 
+        StreetVendor vendor = new StreetVendor();
+        vendor.display(snack);
+        vendor.display(samosa);
+        vendor.display(snack1);
+
+
         System.out.println("***** 45 *****");
         Juice juice = new Juice();
         juice.name();
@@ -1102,6 +1349,12 @@ public class InheritanceRunner {
         juice1.taste();
         juice1.temperature();
         juice1.benefit();
+
+        JuiceBar bar = new JuiceBar();
+        bar.serve(juice);
+        bar.serve(mango);
+        bar.serve(juice1);
+
 
         System.out.println("**** 46 ******");
         Bike bike = new Bike();
@@ -1127,6 +1380,11 @@ public class InheritanceRunner {
         bike1.gearSystem();
         bike1.mileage();
 
+        BikeShowroom showroom = new BikeShowroom();
+        showroom.display(bike);
+        showroom.display(bike1);
+        showroom.display(pulser);
+
         System.out.println("****** 47 ****");
         State state = new State();
         state.name();
@@ -1150,6 +1408,12 @@ public class InheritanceRunner {
         state1.capital();
         state1.famousFor();
         state1.population();
+
+        ChiefMinister chiefMinister = new ChiefMinister();
+        chiefMinister.manage(state);
+        chiefMinister.manage(kar);
+        chiefMinister.manage(state1);
+
 
         System.out.println("***** 48 *****");
         Browser browser = new Browser();
@@ -1175,6 +1439,12 @@ public class InheritanceRunner {
         browser1.extensions();
         browser1.platform();
 
+        User user = new User();
+        user.use(browser);
+        user.use(chrome);
+        user.use(browser1);
+
+
         System.out.println("***** 49 *****");
         Season season = new Season();
         season.name();
@@ -1199,6 +1469,12 @@ public class InheritanceRunner {
         season1.activities();
         season1.clothing();
 
+        WeatherMan weatherMan = new WeatherMan();
+        weatherMan.report(season);
+        weatherMan.report(summer);
+        weatherMan.report(season1);
+
+
         System.out.println("***** 50 *****");
         Pet pet = new Pet();
         pet.name();
@@ -1222,6 +1498,17 @@ public class InheritanceRunner {
         pet1.food();
         pet1.activity();
         pet1.sleep();
+
+        Owner owner = new Owner();
+        owner.care(pet);
+        owner.care(cat);
+        owner.care(pet1);
+
+
+        System.out.println("###########################################################################################");
+
+
+
 
         System.out.println("***** 51 *****");
         Sweet sweet = new Sweet();

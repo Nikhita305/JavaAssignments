@@ -29,4 +29,9 @@ public class Bengaluru extends City {
     public void transportation() {
         System.out.println("Bengaluru has metro, buses, autos, and cabs");
     }
+
+    public void language() {
+        System.out.println("People in Bengaluru speak Kannada and English");
+    }
+
 }

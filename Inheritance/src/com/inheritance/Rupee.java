@@ -29,4 +29,8 @@ public class Rupee extends Currency {
     public void usage() {
         System.out.println("Rupee is used for all financial transactions in India");
     }
+
+    public void denominations() {
+        System.out.println("Rupee has denominations like ₹1, ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹500, ₹2000");
+    }
 }

@@ -29,4 +29,10 @@ public class Pacific extends Ocean {
     public void currents() {
         System.out.println("Pacific currents affect global climate");
     }
+
+    public void color() {
+        System.out.println("Pacific color");
+    }
+
+
 }

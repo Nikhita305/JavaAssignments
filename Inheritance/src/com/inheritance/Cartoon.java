@@ -20,4 +20,8 @@ public class Cartoon {
     public void run() {
         System.out.println("Running run in Cartoon");
     }
+
+    public void jump() {
+        System.out.println("Running jump in Cartoon");
+    }
 }

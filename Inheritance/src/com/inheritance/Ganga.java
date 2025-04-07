@@ -29,4 +29,9 @@ public class Ganga extends River {
     public void importance() {
         System.out.println("Ganga is spiritually, culturally, and economically significant");
     }
+
+    public void cleanUpMission() {
+        System.out.println("Namami Gange is a major cleanup mission for River Ganga");
+    }
+
 }

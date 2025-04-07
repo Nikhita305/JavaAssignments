@@ -29,4 +29,8 @@ public class Purple extends Color {
     public void combination() {
         System.out.println("Purple is made by mixing red and blue");
     }
+
+    public void shadeType() {
+        System.out.println("Color can be primary, secondary, or tertiary");
+    }
 }

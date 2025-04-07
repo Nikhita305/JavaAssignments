@@ -29,4 +29,9 @@ public class Redmi extends Mobile {
     public void storage() {
         System.out.println("Redmi supports expandable storage up to 1TB");
     }
+
+    public void offer() {
+        System.out.println("Redmi offers a special discount for limited time");
+    }
+
 }

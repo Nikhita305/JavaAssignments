@@ -29,4 +29,8 @@ public class BBlunt extends Shampoo {
     public void pack() {
         System.out.println("Packing BBlunt in a premium bottle");
     }
+
+    public void unPack() {
+        System.out.println("Unpacking BBlunt in a premium bottle");
+    }
 }

@@ -24,4 +24,5 @@ public class Galaxy {
     public void hasBlackHole() {
         System.out.println("Galaxy may contain a supermassive black hole");
     }
+
 }

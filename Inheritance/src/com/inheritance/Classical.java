@@ -29,4 +29,8 @@ public class Classical extends Music {
     public void selectTrack() {
         System.out.println("Selecting a classical raag to perform");
     }
+
+    public void song() {
+        System.out.println("Selecting a song of classical to perform");
+    }
 }

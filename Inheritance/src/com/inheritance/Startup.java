@@ -29,4 +29,8 @@ public class Startup extends Company {
     public void payTaxes() {
         System.out.println("Startup enjoys tax benefits for first few years");
     }
+
+    public void fire() {
+        System.out.println("fire employees");
+    }
 }

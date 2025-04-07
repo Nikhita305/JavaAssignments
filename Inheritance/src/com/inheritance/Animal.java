@@ -24,4 +24,5 @@ public class Animal {
     public void habitat() {
         System.out.println("Animal lives in its natural habitat");
     }
+
 }

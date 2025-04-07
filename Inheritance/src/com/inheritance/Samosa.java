@@ -29,4 +29,9 @@ public class Samosa extends Snack {
     public void popularity() {
         System.out.println("Samosa is loved across India and beyond!");
     }
+
+    public void crispiness() {
+        System.out.println("Samosa is crispy and golden brown!");
+    }
+
 }

@@ -24,4 +24,8 @@ public class Device {
     public void update() {
         System.out.println("Device is updating software");
     }
+
+    public void connectToWiFi() {
+        System.out.println("Device is connecting to WiFi");
+    }
 }

@@ -29,4 +29,8 @@ public class Diwali extends Festival {
     public void enjoy() {
         System.out.println("Enjoying Diwali night with crackers");
     }
+
+    public void fire() {
+        System.out.println("Enjoying Diwali night with fire crackers");
+    }
 }

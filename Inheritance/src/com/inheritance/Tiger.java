@@ -29,4 +29,8 @@ public class Tiger extends Animal {
     public void habitat() {
         System.out.println("Tiger lives in dense forests and grasslands");
     }
+
+    public void stripePattern() {
+        System.out.println("Tiger has unique black stripes on orange fur");
+    }
 }

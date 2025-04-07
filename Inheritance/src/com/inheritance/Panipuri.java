@@ -29,4 +29,9 @@ public class Panipuri extends Chaats {
     public void served() {
         System.out.println("Served in rounds with chilled spicy water");
     }
+
+    public void spiceLevel() {
+        System.out.println("Panipuri spice level: Extra spicy 🌶️");
+    }
+
 }

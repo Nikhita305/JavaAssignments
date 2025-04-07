@@ -29,4 +29,9 @@ public class Mango extends Juice {
     public void benefit() {
         System.out.println("Great source of Vitamin A and antioxidants");
     }
+
+    public void pulpContent() {
+        System.out.println("Mango juice contains thick mango pulp!");
+    }
+
 }

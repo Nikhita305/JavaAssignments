@@ -29,4 +29,8 @@ public class Coffee extends Drink {
     public void pack() {
         System.out.println("Packing coffee in a thermos");
     }
+
+    public void unPack() {
+        System.out.println("Unacking coffee in a thermos");
+    }
 }

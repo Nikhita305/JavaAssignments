@@ -29,4 +29,8 @@ public class Temple extends Building {
     public void lock() {
         System.out.println("Temple gates are locked after prayer hours");
     }
+    public void pray() {
+        System.out.println("Devotees are praying inside the temple");
+    }
+
 }

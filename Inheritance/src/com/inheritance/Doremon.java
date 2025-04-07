@@ -25,4 +25,8 @@ public class Doremon extends Cartoon {
     public void run() {
         System.out.println("Running run in Doremon");
     }
+
+    public void jump(){
+        System.out.println("Running jump in Doremon");
+    }
 }

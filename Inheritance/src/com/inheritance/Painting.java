@@ -29,4 +29,8 @@ public class Painting extends Art {
     public void preserve() {
         System.out.println("Framing and storing painting safely");
     }
+
+    public void destroy() {
+        System.out.println("destroy the painting safely");
+    }
 }

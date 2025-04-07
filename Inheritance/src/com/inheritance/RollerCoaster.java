@@ -29,4 +29,9 @@ public class RollerCoaster extends Ride {
     public void safety() {
         System.out.println("Make sure the harness is locked tight!");
     }
+
+    public void loopCount() {
+        System.out.println("This Roller Coaster has 5 loops!");
+    }
+
 }

@@ -29,4 +29,9 @@ public class Pulser extends Bike {
     public void mileage() {
         System.out.println("Pulser gives around 45-50 km/l");
     }
+
+    public void price() {
+        System.out.println("Pulser price ranges from ₹1 lakh to ₹1.5 lakhs");
+    }
+
 }

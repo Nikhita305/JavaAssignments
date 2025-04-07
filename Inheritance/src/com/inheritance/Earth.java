@@ -29,4 +29,10 @@ public class Earth extends Planet {
     public void atmosphere() {
         System.out.println("Earth has oxygen-rich atmosphere");
     }
+
+    public void humidity() {
+        System.out.println("Earth has humidity");
+    }
+
+
 }

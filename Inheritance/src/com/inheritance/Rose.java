@@ -29,4 +29,9 @@ public class Rose extends Flower {
     public void wilt() {
         System.out.println("Rose wilts after a few days if not cared for");
     }
+
+    public void thorns() {
+        System.out.println("Rose has sharp thorns along its stem");
+    }
+
 }

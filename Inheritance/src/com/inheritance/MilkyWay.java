@@ -29,4 +29,9 @@ public class MilkyWay extends Galaxy {
     public void hasBlackHole() {
         System.out.println("MilkyWay has a black hole at its center called Sagittarius A*");
     }
+
+    public void nameOrigin() {
+        System.out.println("MilkyWay's name comes from its appearance as a milky band of light");
+    }
+
 }

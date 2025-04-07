@@ -29,4 +29,9 @@ public class Happiness extends Emotion {
     public void intensity() {
         System.out.println("Happiness can range from contentment to euphoria");
     }
+
+    public void reason() {
+        System.out.println("Happiness can come from achievements, relationships, or gratitude");
+    }
+
 }

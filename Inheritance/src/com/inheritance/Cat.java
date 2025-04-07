@@ -29,4 +29,9 @@ public class Cat extends Pet {
     public void sleep() {
         System.out.println("Cats sleep for around 12-16 hours a day");
     }
+
+    public void purr() {
+        System.out.println("Cat is purring softly");
+    }
+
 }

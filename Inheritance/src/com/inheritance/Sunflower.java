@@ -29,4 +29,8 @@ public class Sunflower extends Plant {
     public void survive() {
         System.out.println("Sunflower survives well in sunny climates");
     }
+
+    public void color() {
+        System.out.println("Sunflower yellow color");
+    }
 }

@@ -29,4 +29,9 @@ public class Himalaya extends Mountain {
     public void importance() {
         System.out.println("Himalayas regulate monsoons and are a source of major rivers");
     }
+
+    public void peaks() {
+        System.out.println("Himalayas include peaks like Everest, Kanchenjunga, and Lhotse");
+    }
+
 }

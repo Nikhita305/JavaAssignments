@@ -29,4 +29,10 @@ public class Jeans extends Dress {
     public void pack() {
         System.out.println("Packing the jeans in a travel bag");
     }
+
+    public void unPack() {
+        System.out.println("Unpacking the jeans in a travel bag");
+    }
+
+
 }

@@ -8,26 +8,30 @@ public class Guitar extends Instrument {
 
    @Override
     public void play() {
-        System.out.println("Running play in Instrument");
+        System.out.println("Running play");
     }
 
     @Override
     public void tune() {
-        System.out.println("Running tune in Instrument");
+        System.out.println("Running tune");
     }
 
     @Override
     public void store() {
-        System.out.println("Running store in Instrument");
+        System.out.println("Running store");
     }
 
     @Override
     public void polish() {
-        System.out.println("Running polish in Instrument");
+        System.out.println("Running polish");
     }
 
     @Override
     public void carry() {
-        System.out.println("Running carry in Instrument");
+        System.out.println("Running carry");
+    }
+
+    public void clean(){
+        System.out.println("Running clean");
     }
 }

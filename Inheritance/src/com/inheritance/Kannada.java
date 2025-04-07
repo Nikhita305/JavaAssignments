@@ -29,4 +29,9 @@ public class Kannada extends Language {
     public void importance() {
         System.out.println("Kannada reflects rich culture and literature");
     }
+
+    public void poets() {
+        System.out.println("Kannada has famous poets like Kuvempu and Bendre");
+    }
+
 }

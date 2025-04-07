@@ -29,4 +29,9 @@ public class Coconut extends Tree {
     public void lifespan() {
         System.out.println("Coconut trees can live for around 60–80 years");
     }
+
+    public void products() {
+        System.out.println("Coconut tree products include husk, oil, water, and shell crafts");
+    }
+
 }

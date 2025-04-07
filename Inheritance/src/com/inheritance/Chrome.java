@@ -29,4 +29,9 @@ public class Chrome extends Browser {
     public void platform() {
         System.out.println("Chrome is available on Windows, macOS, Android, iOS");
     }
+
+    public void devTools() {
+        System.out.println("Chrome has built-in developer tools for debugging");
+    }
+
 }

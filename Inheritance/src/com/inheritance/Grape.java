@@ -29,4 +29,8 @@ public class Grape extends Fruit {
     public void benefits() {
         System.out.println("Grapes are rich in antioxidants");
     }
+    public void smell() {
+        System.out.println("Smell");
+    }
+
 }

@@ -29,4 +29,9 @@ public class BubbleTea extends Beverage {
     public void occasion() {
         System.out.println("Popular as a trendy drink for hangouts");
     }
+
+    public void strawType() {
+        System.out.println("Bubble Tea is served with a wide straw to sip pearls");
+    }
+
 }

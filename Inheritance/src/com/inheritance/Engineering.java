@@ -29,4 +29,9 @@ public class Engineering extends Profession {
     public void responsibility() {
         System.out.println("Engineers are responsible for designing and building systems");
     }
+
+    public void branch() {
+        System.out.println("Engineering has branches like Computer, Civil, Mechanical, etc.");
+    }
+
 }

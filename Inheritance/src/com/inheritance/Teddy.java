@@ -29,4 +29,9 @@ public class Teddy extends Toy {
     public void ageGroup() {
         System.out.println("Teddies are popular among kids and even adults");
     }
+
+    public void hug() {
+        System.out.println("Teddy bear is soft and huggable");
+    }
+
 }

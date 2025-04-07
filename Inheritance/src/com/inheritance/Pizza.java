@@ -29,4 +29,8 @@ public class Pizza extends Food {
     public void cleanUp() {
         System.out.println("Cleaning the pizza tray and dishes");
     }
+
+    public void taste() {
+        System.out.println("Taste the pizza tray and dishes");
+    }
 }

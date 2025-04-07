@@ -29,4 +29,10 @@ public class Car extends Vehicle {
     public void service() {
         System.out.println("Car is in service center");
     }
+
+    public void speed() {
+        System.out.println("Car speed");
+    }
+
+
 }

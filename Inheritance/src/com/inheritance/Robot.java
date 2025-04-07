@@ -29,4 +29,8 @@ public class Robot extends Machine {
     public void maintain() {
         System.out.println("Running diagnostics and updating firmware");
     }
+
+    public void clean() {
+        System.out.println("Running clean");
+    }
 }

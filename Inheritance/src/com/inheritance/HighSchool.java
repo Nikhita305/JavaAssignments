@@ -29,4 +29,9 @@ public class HighSchool extends School {
     public void close() {
         System.out.println("HighSchool ends at 3:30 PM");
     }
+
+    public void work() {
+        System.out.println("HighSchool work");
+    }
+
 }

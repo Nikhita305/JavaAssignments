@@ -29,4 +29,9 @@ public class Karnataka extends State {
     public void population() {
         System.out.println("Population is over 6 crore");
     }
+
+    public void schemes() {
+        System.out.println("Karnataka implements various development schemes");
+    }
+
 }

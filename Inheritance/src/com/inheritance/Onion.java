@@ -29,4 +29,9 @@ public class Onion extends Vegetable {
     public void season() {
         System.out.println("Onions are grown year-round in many regions");
     }
+
+    public void peel() {
+        System.out.println("Onion needs to be peeled before cooking");
+    }
+
 }

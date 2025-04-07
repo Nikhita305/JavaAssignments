@@ -29,4 +29,8 @@ public class Chess extends Game {
     public void save() {
         System.out.println("Saving the chess game state");
     }
+    public void undo() {
+        System.out.println("Undo the chess game state");
+    }
+
 }

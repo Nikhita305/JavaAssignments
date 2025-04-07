@@ -29,4 +29,9 @@ public class India extends Country {
     public void currency() {
         System.out.println("India's currency is the Indian Rupee (INR)");
     }
+
+    public void festival() {
+        System.out.println("India celebrates Diwali, Holi, and many other festivals");
+    }
+
 }

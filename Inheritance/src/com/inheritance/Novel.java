@@ -29,4 +29,9 @@ public class Novel extends Book {
     public void language() {
         System.out.println("Novels are written in popular languages like English or Hindi");
     }
+
+    public void storyline() {
+        System.out.println("This novel has an engaging and emotional storyline");
+    }
+
 }
