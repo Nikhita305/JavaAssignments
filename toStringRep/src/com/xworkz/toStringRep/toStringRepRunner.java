@@ -3,7 +3,7 @@ package com.xworkz.toStringRep;
 public class toStringRepRunner {
     public static void main(String[] args) {
         Bottle bottle = new Bottle("Black",5,"Round");
-        System.out.println("1"+bottle);
+        System.out.println("1" +bottle);
 
         Shoe shoe = new Shoe("Nike", 9, "White");
         System.out.println("2"+shoe);
