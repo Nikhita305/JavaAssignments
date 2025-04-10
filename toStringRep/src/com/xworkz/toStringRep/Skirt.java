@@ -16,4 +16,9 @@ public class Skirt {
     public String toString() {
         return "Brand: " + this.brand + ", Length: " + this.length + ", Color: " + this.color;
     }
+
+    @Override
+    public int hashCode() {
+        return 22;
+    }
 }

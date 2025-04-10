@@ -16,4 +16,9 @@ public class Metro {
     public String toString() {
         return "City: " + this.city + ", Coaches: " + this.coaches + ", Fare: ₹" + this.fare;
     }
+
+    @Override
+    public int hashCode() {
+        return 34;
+    }
 }

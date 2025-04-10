@@ -16,4 +16,9 @@ public class Chain {
     public String toString() {
         return "Material: " + this.material + ", Length: " + this.length + " inches, Type: " + this.type;
     }
+
+    @Override
+    public int hashCode() {
+        return 30;
+    }
 }

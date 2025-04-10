@@ -16,4 +16,9 @@ public class Ring {
     public String toString() {
         return "Metal: " + this.metal + ", Design: " + this.design + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 48;
+    }
 }

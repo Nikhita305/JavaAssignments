@@ -16,4 +16,9 @@ public class Watch {
     public String toString() {
         return "Brand: " + this.brand + ", Type: " + this.type + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 3;
+    }
 }

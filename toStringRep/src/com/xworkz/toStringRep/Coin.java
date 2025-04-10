@@ -16,4 +16,9 @@ public class Coin {
     public String toString() {
         return "Material: " + this.material + ", Value: ₹" + this.value + ", Year: " + this.year;
     }
+
+    @Override
+    public int hashCode() {
+        return 25;
+    }
 }

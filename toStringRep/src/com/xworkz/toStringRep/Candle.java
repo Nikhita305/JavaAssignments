@@ -16,4 +16,9 @@ public class Candle {
     public String toString() {
         return "Scent: " + this.scent + ", Color: " + this.color + ", Burn Time: " + this.burnTime + " hrs";
     }
+
+    @Override
+    public int hashCode() {
+        return 28;
+    }
 }

@@ -16,4 +16,8 @@ public class Belt {
     public String toString() {
         return "Material: " + this.material + ", Color: " + this.color + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 75;
+    }
 }

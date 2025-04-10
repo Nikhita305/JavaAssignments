@@ -16,4 +16,8 @@ public class Bucket {
     public String toString() {
         return "Material: " + this.material + ", Capacity: " + this.capacity + " L, Color: " + this.color;
     }
+
+    public int hashCode() {
+        return 89;
+    }
 }

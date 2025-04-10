@@ -16,4 +16,9 @@ public class Cream {
     public String toString() {
         return "Brand: " + this.brand + ", Purpose: " + this.purpose + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 23;
+    }
 }

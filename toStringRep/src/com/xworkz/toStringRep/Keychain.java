@@ -16,4 +16,8 @@ public class Keychain {
     public String toString() {
         return "Material: " + this.material + ", Shape: " + this.shape + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 91;
+    }
 }

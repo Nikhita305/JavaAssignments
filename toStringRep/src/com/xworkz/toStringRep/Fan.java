@@ -16,4 +16,9 @@ public class Fan {
     public String toString() {
         return "Brand: " + this.brand + ", Speed: " + this.speed + " RPM, Type: " + this.type;
     }
+
+    @Override
+    public int hashCode() {
+        return 8;
+    }
 }

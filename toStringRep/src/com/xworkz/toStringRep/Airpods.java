@@ -16,4 +16,9 @@ public class Airpods {
     public String toString() {
         return "Brand: " + this.brand + ", Model: " + this.model + ", Battery Life: " + this.batteryLife + " hrs";
     }
+
+    @Override
+    public int hashCode() {
+        return 16;
+    }
 }

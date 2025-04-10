@@ -16,4 +16,8 @@ public class Airport {
     public String toString() {
         return "Name: " + this.name + ", Location: " + this.location + ", Terminals: " + this.terminals;
     }
+
+    public int hashCode() {
+        return 73;
+    }
 }

@@ -16,4 +16,9 @@ public class Weather {
     public String toString() {
         return "Condition: " + this.condition + ", Temperature: " + this.temperature + "°C, Location: " + this.location;
     }
+
+    @Override
+    public int hashCode() {
+        return 24;
+    }
 }

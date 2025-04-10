@@ -16,4 +16,9 @@ public class Laptop {
     public String toString() {
         return "Brand: " + this.brand + ", RAM: " + this.ram + "GB, Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 4;
+    }
 }

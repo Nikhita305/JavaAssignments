@@ -16,4 +16,8 @@ public class Mars {
     public String toString() {
         return "Color: " + this.color + ", Distance from Earth: " + this.distance + " million km, Has Life: " + this.hasLife;
     }
+
+    public int hashCode() {
+        return 61;
+    }
 }

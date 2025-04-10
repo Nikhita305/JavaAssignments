@@ -16,4 +16,9 @@ public class Sky {
     public String toString() {
         return "Color: " + this.color + ", Time: " + this.time + ", Has Clouds: " + this.hasClouds;
     }
+
+    @Override
+    public int hashCode() {
+        return 41;
+    }
 }

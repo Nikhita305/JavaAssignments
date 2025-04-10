@@ -16,4 +16,9 @@ public class House {
     public String toString() {
         return "Style: " + this.style + ", Floors: " + this.floors + ", Has Garden: " + this.hasGarden;
     }
+
+    @Override
+    public int hashCode() {
+        return 45;
+    }
 }

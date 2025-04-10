@@ -16,4 +16,8 @@ public class Festival {
     public String toString() {
         return "Name: " + this.name + ", Month: " + this.month + ", Tradition: " + this.tradition;
     }
+
+    public int hashCode() {
+        return 98;
+    }
 }

@@ -16,4 +16,9 @@ public class Shark {
     public String toString() {
         return "Species: " + this.species + ", Length: " + this.length + " ft, Ocean: " + this.ocean;
     }
+
+    @Override
+    public int hashCode() {
+        return 32;
+    }
 }

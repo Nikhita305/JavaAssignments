@@ -16,4 +16,8 @@ public class Ironbox {
     public String toString() {
         return "Brand: " + this.brand + ", Weight: " + this.weight + " kg, Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 88;
+    }
 }

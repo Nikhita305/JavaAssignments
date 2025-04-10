@@ -16,4 +16,8 @@ public class Zepto {
     public String toString() {
         return "Item: " + this.item + ", Category: " + this.category + ", Cost: ₹" + this.cost;
     }
+
+    public int hashCode() {
+        return 54;
+    }
 }

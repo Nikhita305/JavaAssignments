@@ -16,4 +16,8 @@ public class Shampoo {
     public String toString() {
         return "Brand: " + this.brand + ", Type: " + this.type + ", Volume: " + this.volume + " ml";
     }
+
+    public int hashCode() {
+        return 83;
+    }
 }

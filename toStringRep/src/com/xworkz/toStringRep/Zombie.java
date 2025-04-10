@@ -16,4 +16,8 @@ public class Zombie {
     public String toString() {
         return "Name: " + this.name + ", Speed: " + this.speed + " km/h, Origin: " + this.origin;
     }
+
+    public int hashCode() {
+        return 82;
+    }
 }

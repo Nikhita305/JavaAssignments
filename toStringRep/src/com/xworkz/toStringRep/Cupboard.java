@@ -16,4 +16,8 @@ public class Cupboard {
     public String toString() {
         return "Material: " + this.material + ", Shelves: " + this.shelves + ", Color: " + this.color;
     }
+
+    public int hashCode() {
+        return 86;
+    }
 }

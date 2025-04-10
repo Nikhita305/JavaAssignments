@@ -16,4 +16,8 @@ public class Email {
     public String toString() {
         return "Sender: " + this.sender + ", Receiver: " + this.receiver + ", Subject: " + this.subject;
     }
+
+    public int hashCode() {
+        return 66;
+    }
 }

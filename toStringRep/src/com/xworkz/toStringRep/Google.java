@@ -16,4 +16,9 @@ public class Google {
     public String toString() {
         return "Service: " + this.service + ", Founder: " + this.founder + ", Year: " + this.year;
     }
+
+    @Override
+    public int hashCode() {
+        return 33;
+    }
 }

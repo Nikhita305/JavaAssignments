@@ -16,4 +16,9 @@ public class Parachute {
     public String toString() {
         return "Material: " + this.material + ", Color: " + this.color + ", Diameter: " + this.diameter + "m";
     }
+
+    @Override
+    public int hashCode() {
+        return 7;
+    }
 }

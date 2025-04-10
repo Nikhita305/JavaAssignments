@@ -16,4 +16,9 @@ public class Gun {
     public String toString() {
         return "Model: " + this.model + ", Type: " + this.type + ", Capacity: " + this.capacity + " rounds";
     }
+
+    @Override
+    public int hashCode() {
+        return 38;
+    }
 }

@@ -16,4 +16,8 @@ public class Cotton {
     public String toString() {
         return "Quality: " + this.quality + ", Origin: " + this.origin + ", Weight: " + this.weight + " grams";
     }
+
+    public int hashCode() {
+        return 52;
+    }
 }

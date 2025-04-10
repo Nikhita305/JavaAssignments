@@ -16,4 +16,8 @@ public class Bangle {
     public String toString() {
         return "Material: " + this.material + ", Color: " + this.color + ", Diameter: " + this.diameter + " cm";
     }
+
+    public int hashCode() {
+        return 60;
+    }
 }

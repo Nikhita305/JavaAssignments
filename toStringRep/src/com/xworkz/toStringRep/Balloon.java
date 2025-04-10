@@ -16,4 +16,9 @@ public class Balloon {
     public String toString() {
         return "Color: " + this.color + ", Shape: " + this.shape + ", Size: " + this.size + " inches";
     }
+
+    @Override
+    public int hashCode() {
+        return 15;
+    }
 }

@@ -16,4 +16,9 @@ public class Lipstick {
     public String toString() {
         return "Brand: " + this.brand + ", Shade: " + this.shade + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 18;
+    }
 }

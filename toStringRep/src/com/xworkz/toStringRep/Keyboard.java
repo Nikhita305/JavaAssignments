@@ -16,4 +16,8 @@ public class Keyboard {
     public String toString() {
         return "Brand: " + this.brand + ", Type: " + this.type + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 57;
+    }
 }

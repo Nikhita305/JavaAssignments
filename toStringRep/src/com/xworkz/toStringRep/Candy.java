@@ -16,4 +16,9 @@ public class Candy {
     public String toString() {
         return "Flavor: " + this.flavor + ", Color: " + this.color + ", Weight: " + this.weight + "g";
     }
+
+    @Override
+    public int hashCode() {
+        return 11;
+    }
 }

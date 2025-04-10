@@ -16,4 +16,9 @@ public class Wallpaper {
     public String toString() {
         return "Pattern: " + this.pattern + ", Color: " + this.color + ", Price per Roll: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 47;
+    }
 }

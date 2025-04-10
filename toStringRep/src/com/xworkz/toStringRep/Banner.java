@@ -16,4 +16,9 @@ public class Banner {
     public String toString() {
         return "Text: " + this.text + ", Color: " + this.color + ", Width: " + this.width + " ft";
     }
+
+    @Override
+    public int hashCode() {
+        return 40;
+    }
 }

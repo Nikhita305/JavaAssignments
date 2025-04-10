@@ -16,4 +16,8 @@ public class Kidney {
     public String toString() {
         return "Type: " + this.type + ", Function: " + this.function + ", Size: " + this.size + " cm";
     }
+
+    public int hashCode() {
+        return 74;
+    }
 }

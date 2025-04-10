@@ -16,4 +16,8 @@ public class Scale {
     public String toString() {
         return "Material: " + this.material + ", Length: " + this.length + " cm, Brand: " + this.brand;
     }
+
+    public int hashCode() {
+        return 94;
+    }
 }

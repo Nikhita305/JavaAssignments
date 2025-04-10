@@ -16,4 +16,9 @@ public class Lenskart {
     public String toString() {
         return "Frame Type: " + this.frameType + ", Lens Type: " + this.lensType + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 44;
+    }
 }

@@ -16,4 +16,8 @@ public class Auditorium {
     public String toString() {
         return "Name: " + this.name + ", Capacity: " + this.capacity + " seats, Location: " + this.location;
     }
+
+    public int hashCode() {
+        return 76;
+    }
 }

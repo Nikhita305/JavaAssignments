@@ -16,4 +16,8 @@ public class Thread {
     public String toString() {
         return "Color: " + this.color + ", Type: " + this.type + ", Length: " + this.length + " m";
     }
+
+    public int hashCode() {
+        return 56;
+    }
 }

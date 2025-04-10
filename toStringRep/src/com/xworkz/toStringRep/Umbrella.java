@@ -16,4 +16,8 @@ public class Umbrella {
     public String toString() {
         return "Color: " + this.color + ", Size: " + this.size + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 81;
+    }
 }

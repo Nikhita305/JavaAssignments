@@ -16,4 +16,8 @@ public class Sticker {
     public String toString() {
         return "Design: " + this.design + ", Shape: " + this.shape + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 90;
+    }
 }

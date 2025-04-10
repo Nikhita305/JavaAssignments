@@ -16,4 +16,9 @@ public class Tubelight {
     public String toString() {
         return "Brand: " + this.brand + ", Length: " + this.length + " inches, Wattage: " + this.wattage + "W";
     }
+
+    @Override
+    public int hashCode() {
+        return 14;
+    }
 }

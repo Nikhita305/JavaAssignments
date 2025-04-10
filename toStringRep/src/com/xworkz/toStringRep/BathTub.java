@@ -16,4 +16,9 @@ public class BathTub {
     public String toString() {
         return "Shape: " + this.shape + ", Material: " + this.material + ", Length: " + this.length + " ft";
     }
+
+    @Override
+    public int hashCode() {
+        return 27;
+    }
 }

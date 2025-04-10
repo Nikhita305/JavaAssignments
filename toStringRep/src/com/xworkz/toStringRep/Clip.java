@@ -16,4 +16,9 @@ public class Clip {
     public String toString() {
         return "Material: " + this.material + ", Color: " + this.color + ", Length: " + this.length + " cm";
     }
+
+    @Override
+    public int hashCode() {
+        return 13;
+    }
 }

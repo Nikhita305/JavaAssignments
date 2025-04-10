@@ -16,4 +16,8 @@ public class HoneyBee {
     public String toString() {
         return "Species: " + this.species + ", Wing Span: " + this.wingSpan + " cm, Hive Location: " + this.hiveLocation;
     }
+
+    public int hashCode() {
+        return 80;
+    }
 }

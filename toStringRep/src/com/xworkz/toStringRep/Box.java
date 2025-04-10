@@ -16,4 +16,8 @@ public class Box {
     public String toString() {
         return "Material: " + this.material + ", Color: " + this.color + ", Weight: " + this.weight + " kg";
     }
+
+    public int hashCode() {
+        return 85;
+    }
 }

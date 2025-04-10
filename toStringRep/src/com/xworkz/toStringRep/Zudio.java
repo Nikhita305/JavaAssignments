@@ -16,4 +16,9 @@ public class Zudio {
     public String toString() {
         return "Product: " + this.productType + ", Size: " + this.size + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 19;
+    }
 }

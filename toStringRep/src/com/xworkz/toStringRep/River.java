@@ -16,4 +16,8 @@ public class River {
     public String toString() {
         return "Name: " + this.name + ", Length: " + this.length + " km, Origin: " + this.origin;
     }
+
+    public int hashCode() {
+        return 64;
+    }
 }

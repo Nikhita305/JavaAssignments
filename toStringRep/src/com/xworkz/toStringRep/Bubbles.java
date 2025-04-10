@@ -16,4 +16,9 @@ public class Bubbles {
     public String toString() {
         return "Size: " + this.size + ", Color: " + this.color + ", Count: " + this.count;
     }
+
+    @Override
+    public int hashCode() {
+        return 42;
+    }
 }

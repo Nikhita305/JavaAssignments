@@ -16,4 +16,8 @@ public class Pizza {
     public String toString() {
         return "Flavor: " + this.flavor + ", Size: " + this.size + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 93;
+    }
 }

@@ -16,4 +16,8 @@ public class Barbie {
     public String toString() {
         return "Outfit: " + this.outfit + ", Hair Color: " + this.hairColor + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 96;
+    }
 }

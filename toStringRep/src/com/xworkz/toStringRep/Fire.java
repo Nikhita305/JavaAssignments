@@ -16,4 +16,9 @@ public class Fire {
     public String toString() {
         return "Source: " + this.source + ", Color: " + this.color + ", Temperature: " + this.temperature + "°C";
     }
+
+    @Override
+    public int hashCode() {
+        return 9;
+    }
 }

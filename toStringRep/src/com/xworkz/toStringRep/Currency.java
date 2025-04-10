@@ -16,4 +16,8 @@ public class Currency {
     public String toString() {
         return "Country: " + this.country + ", Name: " + this.name + ", Value: ₹" + this.value;
     }
+
+    public int hashCode() {
+        return 99;
+    }
 }

@@ -16,4 +16,9 @@ public class Crackers {
     public String toString() {
         return "Type: " + this.type + ", Brand: " + this.brand + ", Price: ₹" + this.price;
     }
+
+    @Override
+    public int hashCode() {
+        return 37;
+    }
 }

@@ -16,4 +16,9 @@ public class Boat {
     public String toString() {
         return "Type: " + this.type + ", Color: " + this.color + ", Capacity: " + this.capacity + " people";
     }
+
+    @Override
+    public int hashCode() {
+        return 17;
+    }
 }

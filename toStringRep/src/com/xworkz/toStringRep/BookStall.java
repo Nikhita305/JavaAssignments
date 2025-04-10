@@ -16,4 +16,8 @@ public class BookStall {
     public String toString() {
         return "Name: " + this.name + ", Location: " + this.location + ", Books Available: " + this.booksAvailable;
     }
+
+    public int hashCode() {
+        return 72;
+    }
 }

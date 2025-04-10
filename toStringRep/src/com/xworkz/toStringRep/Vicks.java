@@ -16,4 +16,8 @@ public class Vicks {
     public String toString() {
         return "Type: " + this.type + ", Scent: " + this.scent + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 65;
+    }
 }

@@ -16,4 +16,8 @@ public class Theater {
     public String toString() {
         return "Name: " + this.name + ", Screens: " + this.screens + ", Location: " + this.location;
     }
+
+    public int hashCode() {
+        return 77;
+    }
 }

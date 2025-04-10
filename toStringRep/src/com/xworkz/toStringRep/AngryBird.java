@@ -16,4 +16,8 @@ public class AngryBird {
     public String toString() {
         return "Name: " + this.name + ", Color: " + this.color + ", Power: " + this.power;
     }
+
+    public int hashCode() {
+        return 92;
+    }
 }

@@ -16,4 +16,8 @@ public class Alien {
     public String toString() {
         return "Planet: " + this.planet + ", Age: " + this.age + ", Species: " + this.species;
     }
+
+    public int hashCode() {
+        return 84;
+    }
 }

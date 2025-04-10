@@ -16,4 +16,9 @@ public class Hippopotamus {
     public String toString() {
         return "Name: " + this.name + ", Weight: " + this.weight + " kg, Habitat: " + this.habitat;
     }
+
+    @Override
+    public int hashCode() {
+        return 36;
+    }
 }

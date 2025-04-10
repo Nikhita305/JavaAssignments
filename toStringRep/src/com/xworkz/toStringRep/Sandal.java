@@ -16,4 +16,9 @@ public class Sandal {
     public String toString() {
         return "Brand: " + this.brand + ", Size: " + this.size + ", Color: " + this.color;
     }
+
+    @Override
+    public int hashCode() {
+        return 20;
+    }
 }

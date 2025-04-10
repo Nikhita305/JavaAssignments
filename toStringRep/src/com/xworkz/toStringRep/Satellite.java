@@ -16,4 +16,9 @@ public class Satellite {
     public String toString() {
         return "Name: " + this.name + ", Country: " + this.country + ", Launch Year: " + this.launchYear;
     }
+
+    @Override
+    public int hashCode() {
+        return 35;
+    }
 }

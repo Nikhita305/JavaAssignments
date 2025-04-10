@@ -16,4 +16,8 @@ public class Pillow {
     public String toString() {
         return "Material: " + this.material + ", Size: " + this.size + ", Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 87;
+    }
 }

@@ -16,4 +16,8 @@ public class Gym {
     public String toString() {
         return "Name: " + this.name + ", Location: " + this.location + ", Members: " + this.members;
     }
+
+    public int hashCode() {
+        return 71;
+    }
 }

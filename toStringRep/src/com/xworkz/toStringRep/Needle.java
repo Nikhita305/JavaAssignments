@@ -16,4 +16,8 @@ public class Needle {
     public String toString() {
         return "Type: " + this.type + ", Length: " + this.length + " cm, Is Sharp: " + this.isSharp;
     }
+
+    public int hashCode() {
+        return 51;
+    }
 }

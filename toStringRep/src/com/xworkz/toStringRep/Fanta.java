@@ -16,4 +16,8 @@ public class Fanta {
     public String toString() {
         return "Flavor: " + this.flavor + ", Volume: " + this.volume + "Price: ₹" + this.price;
     }
+
+    public int hashCode() {
+        return 97;
+    }
 }

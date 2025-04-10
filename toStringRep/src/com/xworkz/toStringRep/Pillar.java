@@ -16,4 +16,8 @@ public class Pillar {
     public String toString() {
         return "Material: " + this.material + ", Height: " + this.height + "Location: " + this.location;
     }
+
+    public int hashCode() {
+        return 100;
+    }
 }

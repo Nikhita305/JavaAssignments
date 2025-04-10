@@ -16,4 +16,8 @@ public class Wonderla {
     public String toString() {
         return "Location: " + this.location + ", Rides: " + this.rides + ", Entry Fee: ₹" + this.entryFee;
     }
+
+    public int hashCode() {
+        return 67;
+    }
 }

@@ -16,4 +16,8 @@ public class Song {
     public String toString() {
         return "Title: " + this.title + ", Artist: " + this.artist + ", Duration: " + this.duration + " mins";
     }
+
+    public int hashCode() {
+        return 58;
+    }
 }

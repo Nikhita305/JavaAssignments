@@ -16,4 +16,8 @@ public class Telescope {
     public String toString() {
         return "Brand: " + this.brand + ", Type: " + this.type + ", Zoom: " + this.zoom + "x";
     }
+
+    public int hashCode() {
+        return 63;
+    }
 }

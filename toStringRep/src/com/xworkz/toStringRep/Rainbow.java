@@ -16,4 +16,8 @@ public class Rainbow {
     public String toString() {
         return "Colors: " + this.colors + ", Shape: " + this.shape + ", Visible At: " + this.timeVisible;
     }
+
+    public int hashCode() {
+        return 95;
+    }
 }

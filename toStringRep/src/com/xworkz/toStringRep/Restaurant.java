@@ -16,4 +16,9 @@ public class Restaurant {
     public String toString() {
         return "Name: " + this.name + ", Cuisine: " + this.cuisine + ", Rating: " + this.rating + "⭐";
     }
+
+    @Override
+    public int hashCode() {
+        return 39;
+    }
 }

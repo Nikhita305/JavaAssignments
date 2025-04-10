@@ -16,4 +16,9 @@ public class Soil {
     public String toString() {
         return "Type: " + this.type + ", Color: " + this.color + ", Is Fertile: " + this.isFertile;
     }
+
+    @Override
+    public int hashCode() {
+        return 43;
+    }
 }

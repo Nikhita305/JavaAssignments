@@ -16,4 +16,9 @@ public class Chats {
     public String toString() {
         return "Sender: " + this.sender + ", Message: \"" + this.message + "\", Time: " + this.time;
     }
+
+    @Override
+    public int hashCode() {
+        return 26;
+    }
 }

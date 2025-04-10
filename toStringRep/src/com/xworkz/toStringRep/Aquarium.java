@@ -16,4 +16,8 @@ public class Aquarium {
     public String toString() {
         return "Name: " + this.name + ", Capacity: " + this.capacity + " liters, Location: " + this.location;
     }
+
+    public int hashCode() {
+        return 78;
+    }
 }

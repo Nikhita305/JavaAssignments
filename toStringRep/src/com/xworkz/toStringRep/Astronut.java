@@ -16,4 +16,8 @@ public class Astronut {
     public String toString() {
         return "Name: " + this.name + ", Mission: " + this.mission + ", Age: " + this.age;
     }
+
+    public int hashCode() {
+        return 62;
+    }
 }

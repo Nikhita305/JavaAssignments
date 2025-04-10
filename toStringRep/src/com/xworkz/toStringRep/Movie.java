@@ -16,4 +16,9 @@ public class Movie {
     public String toString() {
         return "Title: " + this.title + ", Genre: " + this.genre + ", Rating: " + this.rating + "⭐";
     }
+
+    @Override
+    public int hashCode() {
+        return 50;
+    }
 }

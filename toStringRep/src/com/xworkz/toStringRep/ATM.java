@@ -16,4 +16,8 @@ public class ATM {
     public String toString() {
         return "Bank: " + this.bankName + ", Location: " + this.location + ", Balance: ₹" + this.balance;
     }
+
+    public int hashCode() {
+        return 79;
+    }
 }

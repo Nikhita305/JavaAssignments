@@ -16,4 +16,9 @@ public class DreamCatcher {
     public String toString() {
         return "Color: " + this.color + ", Diameter: " + this.diameter + " inches, Material: " + this.material;
     }
+
+    @Override
+    public int hashCode() {
+        return 21;
+    }
 }
