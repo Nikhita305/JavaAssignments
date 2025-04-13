@@ -21,4 +21,21 @@ public class BathTub {
     public int hashCode() {
         return 27;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof BathTub) {
+                System.out.println("Ref,compare");
+                BathTub bathTub = this;
+                BathTub bathTub1 = (BathTub) obj;
+                if (bathTub.shape.equals(bathTub1.shape)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

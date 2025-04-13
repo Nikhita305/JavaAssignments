@@ -21,4 +21,21 @@ public class Coin {
     public int hashCode() {
         return 25;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Coin) {
+                System.out.println("Ref,compare");
+                Coin coin = this;
+                Coin coin1 = (Coin) obj;
+                if (coin.material.equals(coin1.material)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

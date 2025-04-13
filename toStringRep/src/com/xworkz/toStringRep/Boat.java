@@ -21,4 +21,21 @@ public class Boat {
     public int hashCode() {
         return 17;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Boat) {
+                System.out.println("Ref,compare");
+                Boat boat = this;
+                Boat boat1 = (Boat) obj;
+                if (boat.type.equals(boat1.type)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

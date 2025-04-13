@@ -21,4 +21,21 @@ public class Lipstick {
     public int hashCode() {
         return 18;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Lipstick) {
+                System.out.println("Ref,compare");
+                Lipstick lipstick = this;
+                Lipstick lipstick1 = (Lipstick) obj;
+                if (lipstick.shade.equals(lipstick1.shade)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

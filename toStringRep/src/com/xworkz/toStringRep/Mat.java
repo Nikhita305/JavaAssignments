@@ -21,4 +21,21 @@ public class Mat {
     public int hashCode() {
         return 46;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Mat) {
+                System.out.println("Ref,compare");
+                Mat mat = this;
+                Mat mat1 = (Mat) obj;
+                if (mat.material.equals(mat1.material) && mat.color.equals(mat1.color)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

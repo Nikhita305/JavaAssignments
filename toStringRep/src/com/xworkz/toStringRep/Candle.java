@@ -21,4 +21,21 @@ public class Candle {
     public int hashCode() {
         return 28;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Candle) {
+                System.out.println("Ref,compare");
+                Candle candle = this;
+                Candle candle1 = (Candle) obj;
+                if (candle.scent.equals(candle.scent)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

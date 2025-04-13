@@ -17,7 +17,25 @@ public class Song {
         return "Title: " + this.title + ", Artist: " + this.artist + ", Duration: " + this.duration + " mins";
     }
 
+    @Override
     public int hashCode() {
         return 58;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Song) {
+                System.out.println("Ref,compare");
+                Song song = this;
+                Song song1 = (Song) obj;
+                if (song.title.equals(song1.title) && song.artist.equals(song1.artist)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

@@ -17,7 +17,27 @@ public class Ironbox {
         return "Brand: " + this.brand + ", Weight: " + this.weight + " kg, Price: ₹" + this.price;
     }
 
+    @Override
     public int hashCode() {
         return 88;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Ironbox) {
+                System.out.println("Ref is Ironbox, compare");
+                Ironbox Ironbox = this;
+                Ironbox ironbox1 = (Ironbox) obj;
+                if (Ironbox.brand.equals(ironbox1.brand)
+                        && Ironbox.weight == ironbox1.weight
+                        && Ironbox.price == ironbox1.price) {
+                    System.out.println("Both Ironbox objects are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

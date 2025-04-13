@@ -21,4 +21,21 @@ public class Tubelight {
     public int hashCode() {
         return 14;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Tubelight) {
+                System.out.println("Ref,compare");
+                Tubelight t1 = this;
+                Tubelight t2 = (Tubelight) obj;
+                if (t1.brand.equals(t2.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

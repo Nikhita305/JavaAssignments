@@ -17,7 +17,27 @@ public class Belt {
         return "Material: " + this.material + ", Color: " + this.color + ", Price: ₹" + this.price;
     }
 
+    @Override
     public int hashCode() {
         return 75;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Belt) {
+                System.out.println("Ref is Belt, compare");
+                Belt belt1 = this;
+                Belt belt2 = (Belt) obj;
+                if (belt1.material.equals(belt2.material)
+                        && belt1.color.equals(belt2.color)
+                        && belt1.price == belt2.price) {
+                    System.out.println("Both Belt objects are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

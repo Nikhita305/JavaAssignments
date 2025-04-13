@@ -17,7 +17,25 @@ public class Thread {
         return "Color: " + this.color + ", Type: " + this.type + ", Length: " + this.length + " m";
     }
 
+    @Override
     public int hashCode() {
         return 56;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Thread) {
+                System.out.println("Ref,compare");
+                Thread thread = this;
+                Thread thread1 = (Thread) obj;
+                if (thread.color.equals(thread1.color) && thread.type.equals(thread1.type)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

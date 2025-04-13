@@ -21,4 +21,21 @@ public class Airpods {
     public int hashCode() {
         return 16;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Airpods) {
+                System.out.println("Ref,compare");
+                Airpods airpods = this;
+                Airpods airpods1 = (Airpods) obj;
+                if (airpods.brand.equals(airpods1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

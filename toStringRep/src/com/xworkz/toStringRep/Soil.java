@@ -21,4 +21,21 @@ public class Soil {
     public int hashCode() {
         return 43;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Soil) {
+                System.out.println("Ref,compare");
+                Soil soil = this;
+                Soil soil1 = (Soil) obj;
+                if (soil.type.equals(soil1.type) && soil.color.equals(soil1.color)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

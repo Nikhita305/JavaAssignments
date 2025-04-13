@@ -21,4 +21,21 @@ public class Chats {
     public int hashCode() {
         return 26;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Chats) {
+                System.out.println("Ref,compare");
+                Chats chats = this;
+                Chats chats1 = (Chats) obj;
+                if (chats.sender.equals(chats1.sender)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

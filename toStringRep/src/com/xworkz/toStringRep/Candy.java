@@ -21,4 +21,21 @@ public class Candy {
     public int hashCode() {
         return 11;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Candy) {
+                System.out.println("Ref,compare");
+                Candy candy = this;
+                Candy candy1 = (Candy) obj;
+                if (candy.flavor.equals(candy1.flavor)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

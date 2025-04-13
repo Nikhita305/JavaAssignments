@@ -21,4 +21,21 @@ public class Restaurant {
     public int hashCode() {
         return 39;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Restaurant) {
+                System.out.println("Ref,compare");
+                Restaurant res1 = this;
+                Restaurant res2 = (Restaurant) obj;
+                if (res1.name.equals(res2.name) && res1.cuisine.equals(res2.cuisine)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

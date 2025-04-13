@@ -21,4 +21,22 @@ public class Weather {
     public int hashCode() {
         return 24;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Weather) {
+                System.out.println("Ref,compare");
+                Weather weather = this;
+                Weather weather1 = (Weather) obj;
+                if (weather.condition.equals(weather1.condition)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

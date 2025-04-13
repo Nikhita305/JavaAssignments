@@ -17,7 +17,27 @@ public class Keychain {
         return "Material: " + this.material + ", Shape: " + this.shape + ", Price: ₹" + this.price;
     }
 
+    @Override
     public int hashCode() {
         return 91;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Keychain) {
+                System.out.println("Ref is Keychain, compare");
+                Keychain Keychain = this;
+                Keychain keychain1 = (Keychain) obj;
+                if (Keychain.material.equals(keychain1.material)
+                        && Keychain.shape.equals(keychain1.shape)
+                        && Keychain.price == keychain1.price) {
+                    System.out.println("Both Keychain objects are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

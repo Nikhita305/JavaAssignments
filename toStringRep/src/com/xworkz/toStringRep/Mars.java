@@ -17,7 +17,25 @@ public class Mars {
         return "Color: " + this.color + ", Distance from Earth: " + this.distance + " million km, Has Life: " + this.hasLife;
     }
 
+    @Override
     public int hashCode() {
         return 61;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Mars) {
+                System.out.println("Ref is Mars, compare");
+                Mars mars1 = this;
+                Mars mars2 = (Mars) obj;
+                if (mars1.color.equals(mars2.color) && mars1.distance == mars2.distance && mars1.hasLife == mars2.hasLife) {
+                    System.out.println("Both Mars objects are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

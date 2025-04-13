@@ -21,4 +21,21 @@ public class Chain {
     public int hashCode() {
         return 30;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Chain) {
+                System.out.println("Ref,compare");
+                Chain chain = this;
+                Chain chain1 = (Chain) obj;
+                if (chain.material.equals(chain1.material)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

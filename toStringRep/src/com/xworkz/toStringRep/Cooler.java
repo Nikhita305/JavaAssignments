@@ -17,7 +17,27 @@ public class Cooler {
         return "Brand: " + this.brand + ", Type: " + this.type + ", Price: ₹" + this.price;
     }
 
+    @Override
     public int hashCode() {
         return 70;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Cooler) {
+                System.out.println("Ref is Cooler, compare");
+                Cooler cooler1 = this;
+                Cooler cooler2 = (Cooler) obj;
+                if (cooler1.brand.equals(cooler2.brand)
+                        && cooler1.type.equals(cooler2.type)
+                        && cooler1.price == cooler2.price) {
+                    System.out.println("Both Coolers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

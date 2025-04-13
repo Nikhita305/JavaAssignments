@@ -21,4 +21,21 @@ public class Fire {
     public int hashCode() {
         return 9;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Fire) {
+                System.out.println("Ref,compare");
+                Fire fire = this;
+                Fire fire1 = (Fire) obj;
+                if (fire.source.equals(fire1.source)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

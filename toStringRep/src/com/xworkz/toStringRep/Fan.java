@@ -21,4 +21,21 @@ public class Fan {
     public int hashCode() {
         return 8;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Fan) {
+                System.out.println("Ref,compare");
+                Fan fan = this;
+                Fan fan1 = (Fan) obj;
+                if (fan.brand.equals(fan1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

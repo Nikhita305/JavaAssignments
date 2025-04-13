@@ -21,4 +21,23 @@ public class Bank {
     public int hashCode() {
         return 31;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Bank) {
+                System.out.println("Ref,compare");
+                Bank bank = this;
+                Bank bank1 = (Bank) obj;
+                if (bank.ifsc.equals(bank.ifsc) && bank.branch.equals(bank1.branch)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
+
 }

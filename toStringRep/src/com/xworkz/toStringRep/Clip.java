@@ -21,4 +21,21 @@ public class Clip {
     public int hashCode() {
         return 13;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Clip) {
+                System.out.println("Ref,compare");
+                Clip clip = this;
+                Clip clip1 = (Clip) obj;
+                if (clip.material.equals(clip1.material)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

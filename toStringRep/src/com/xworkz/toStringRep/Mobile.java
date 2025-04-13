@@ -21,4 +21,21 @@ public class Mobile {
     public int hashCode() {
         return 5;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Mobile) {
+                System.out.println("Ref,compare");
+                Mobile mobile = this;
+                Mobile mobile1 = (Mobile) obj;
+                if (mobile.brand.equals(mobile1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

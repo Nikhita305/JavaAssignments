@@ -17,7 +17,27 @@ public class Gym {
         return "Name: " + this.name + ", Location: " + this.location + ", Members: " + this.members;
     }
 
+    @Override
     public int hashCode() {
         return 71;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Gym) {
+                System.out.println("Ref is Gym, compare");
+                Gym gym1 = this;
+                Gym gym2 = (Gym) obj;
+                if (gym1.name.equals(gym2.name)
+                        && gym1.location.equals(gym2.location)
+                        && gym1.members == gym2.members) {
+                    System.out.println("Both Gyms are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

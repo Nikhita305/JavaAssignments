@@ -21,4 +21,21 @@ public class Watch {
     public int hashCode() {
         return 3;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Watch) {
+                System.out.println("Ref,compare");
+                Watch watch = this;
+                Watch watch1 = (Watch) obj;
+                if (watch.brand.equals(watch1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -21,4 +21,21 @@ public class Wallpaper {
     public int hashCode() {
         return 47;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Wallpaper) {
+                System.out.println("Ref,compare");
+                Wallpaper wall1 = this;
+                Wallpaper wall2 = (Wallpaper) obj;
+                if (wall1.pattern.equals(wall2.pattern) && wall1.color.equals(wall2.color)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

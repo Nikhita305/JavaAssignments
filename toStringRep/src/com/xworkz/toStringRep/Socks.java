@@ -21,4 +21,21 @@ public class Socks {
     public int hashCode() {
         return 29;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Socks) {
+                System.out.println("Ref,compare");
+                Socks socks = this;
+                Socks socks1 = (Socks) obj;
+                if (socks.brand.equals(socks1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

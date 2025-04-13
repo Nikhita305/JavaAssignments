@@ -21,4 +21,21 @@ public class Google {
     public int hashCode() {
         return 33;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Google) {
+                System.out.println("Ref,compare");
+                Google google = this;
+                Google google1 = (Google) obj;
+                if (google.service.equals(google1.service) && google.founder.equals(google1.founder)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

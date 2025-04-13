@@ -17,7 +17,27 @@ public class Pillow {
         return "Material: " + this.material + ", Size: " + this.size + ", Price: ₹" + this.price;
     }
 
+    @Override
     public int hashCode() {
         return 87;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Pillow) {
+                System.out.println("Ref is Pillow, compare");
+                Pillow Pillow = this;
+                Pillow pillow1 = (Pillow) obj;
+                if (Pillow.material.equals(pillow1.material)
+                        && Pillow.size.equals(pillow1.size)
+                        && Pillow.price == pillow1.price) {
+                    System.out.println("Both Pillow objects are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

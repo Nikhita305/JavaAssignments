@@ -21,4 +21,21 @@ public class Hippopotamus {
     public int hashCode() {
         return 36;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Hippopotamus) {
+                System.out.println("Ref,compare");
+                Hippopotamus hippo = this;
+                Hippopotamus hippo1 = (Hippopotamus) obj;
+                if (hippo.name.equals(hippo1.name) && hippo.habitat.equals(hippo1.habitat)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

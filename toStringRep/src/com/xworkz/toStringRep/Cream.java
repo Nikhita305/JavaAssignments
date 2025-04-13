@@ -21,4 +21,21 @@ public class Cream {
     public int hashCode() {
         return 23;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Cream) {
+                System.out.println("Ref,compare");
+                Cream cream = this;
+                Cream cream1 = (Cream) obj;
+                if (cream.brand.equals(cream1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -21,4 +21,21 @@ public class Banner {
     public int hashCode() {
         return 40;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Banner) {
+                System.out.println("Ref,compare");
+                Banner banner = this;
+                Banner banner1 = (Banner) obj;
+                if (banner.text.equals(banner1.text) && banner.color.equals(banner1.color)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

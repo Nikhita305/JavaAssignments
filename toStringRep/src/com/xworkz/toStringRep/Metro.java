@@ -21,4 +21,21 @@ public class Metro {
     public int hashCode() {
         return 34;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Metro) {
+                System.out.println("Ref,compare");
+                Metro metro = this;
+                Metro metro1 = (Metro) obj;
+                if (metro.city.equals(metro1.city) && metro.coaches == metro1.coaches) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

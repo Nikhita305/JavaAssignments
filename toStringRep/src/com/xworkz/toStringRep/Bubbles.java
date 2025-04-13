@@ -21,4 +21,21 @@ public class Bubbles {
     public int hashCode() {
         return 42;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Bubbles) {
+                System.out.println("Ref,compare");
+                Bubbles bubble1 = this;
+                Bubbles bubble2 = (Bubbles) obj;
+                if (bubble1.size.equals(bubble2.size) && bubble1.color.equals(bubble2.color)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

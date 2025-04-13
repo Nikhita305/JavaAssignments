@@ -21,4 +21,21 @@ public class Camera {
     public int hashCode() {
         return 12;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Camera) {
+                System.out.println("Ref,compare");
+                Camera camera = this;
+                Camera camera1 = (Camera) obj;
+                if (camera.brand.equals(camera1.brand)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

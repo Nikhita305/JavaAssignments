@@ -21,4 +21,21 @@ public class Ring {
     public int hashCode() {
         return 48;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Ring) {
+                System.out.println("Ref,compare");
+                Ring ring1 = this;
+                Ring ring2 = (Ring) obj;
+                if (ring1.metal.equals(ring2.metal) && ring1.design.equals(ring2.design)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

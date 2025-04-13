@@ -21,4 +21,21 @@ public class Parachute {
     public int hashCode() {
         return 7;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Parachute) {
+                System.out.println("Ref,compare");
+                Parachute parachute = this;
+                Parachute parachute1 = (Parachute) obj;
+                if (parachute.material.equals(parachute1.material)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

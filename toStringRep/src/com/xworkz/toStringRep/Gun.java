@@ -21,4 +21,21 @@ public class Gun {
     public int hashCode() {
         return 38;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Gun) {
+                System.out.println("Ref,compare");
+                Gun gun = this;
+                Gun gun1 = (Gun) obj;
+                if (gun.model.equals(gun1.model) && gun.type.equals(gun1.type)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

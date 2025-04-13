@@ -21,4 +21,21 @@ public class DreamCatcher {
     public int hashCode() {
         return 21;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof DreamCatcher) {
+                System.out.println("Ref,compare");
+                DreamCatcher d1 = this;
+                DreamCatcher d2 = (DreamCatcher) obj;
+                if (d1.color.equals(d2.color)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

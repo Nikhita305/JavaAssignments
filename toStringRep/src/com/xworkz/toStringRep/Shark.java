@@ -21,4 +21,22 @@ public class Shark {
     public int hashCode() {
         return 32;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Ref is not null");
+            if (obj instanceof Shark) {
+                System.out.println("Ref,compare");
+                Shark shark = this;
+                Shark shark1 = (Shark) obj;
+                if (shark.species.equals(shark1.species) &&
+                        shark.ocean.equals(shark1.ocean)) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
