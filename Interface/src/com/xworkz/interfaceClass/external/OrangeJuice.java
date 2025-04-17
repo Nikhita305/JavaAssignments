@@ -17,4 +17,9 @@ public class OrangeJuice implements Juice {
     public void serve() {
         System.out.println("Serving the refreshing orange juice");
     }
+
+    @Override
+    public void chill() {
+        System.out.println("Running chill in OrangeJuice");
+    }
 }

@@ -17,4 +17,9 @@ public class FaceMask implements Mask {
     public void clean() {
         System.out.println("Cleaning the face mask for reuse");
     }
+
+    @Override
+    public void adjust() {
+        System.out.println("Adjusting the face mask on the face");
+    }
 }

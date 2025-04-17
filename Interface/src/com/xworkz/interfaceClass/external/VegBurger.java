@@ -17,4 +17,9 @@ public class VegBurger implements Burger {
     public void eat() {
         System.out.println("Eating the veggie burger with sauce");
     }
+
+    @Override
+    public void cook() {
+        System.out.println("Running cook in VegBurger");
+    }
 }

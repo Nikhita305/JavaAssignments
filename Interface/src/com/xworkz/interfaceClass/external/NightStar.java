@@ -17,4 +17,9 @@ public class NightStar implements Star {
     public void disappear() {
         System.out.println("The star has disappeared behind the clouds");
     }
+
+    @Override
+    public void glow() {
+        System.out.println("The night star is glowing brightly");
+    }
 }

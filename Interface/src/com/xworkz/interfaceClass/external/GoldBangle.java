@@ -17,4 +17,9 @@ public class GoldBangle implements Bangle {
     public void remove() {
         System.out.println("Removing the gold bangle");
     }
+
+    @Override
+    public void polish() {
+        System.out.println("Polishing the gold bangle to a shiny finish");
+    }
 }

@@ -17,4 +17,9 @@ public class TomatoKetchup implements Ketchup {
     public void store() {
         System.out.println("Storing the ketchup bottle in the fridge");
     }
+
+    @Override
+    public void shake() {
+        System.out.println("Shaking the tomato ketchup bottle to mix the ingredients");
+    }
 }

@@ -17,4 +17,9 @@ public class DecorativeSticker implements Sticker {
     public void design() {
         System.out.println("Designing a new sticker");
     }
+
+    @Override
+    public void showSticker() {
+        System.out.println("Displaying the decorative sticker with vibrant colors");
+    }
 }

@@ -17,4 +17,9 @@ public class PhotoFrame implements Frame {
     public void display() {
         System.out.println("Displaying the photo frame with a picture");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("Cleaning the photo frame to make it shine");
+    }
 }

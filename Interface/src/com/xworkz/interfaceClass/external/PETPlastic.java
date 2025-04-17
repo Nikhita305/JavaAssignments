@@ -17,4 +17,9 @@ public class PETPlastic implements Plastic {
     public void dispose() {
         System.out.println("Properly disposing of PET plastic after use");
     }
+
+    @Override
+    public void reduce() {
+        System.out.println("Reducing the usage of PET plastic to protect the environment");
+    }
 }

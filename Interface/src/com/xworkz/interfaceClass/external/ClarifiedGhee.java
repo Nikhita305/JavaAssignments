@@ -17,5 +17,9 @@ public class ClarifiedGhee implements Ghee {
     public void store() {
         System.out.println("Storing the ghee in a cool place");
     }
-}
 
+    @Override
+    public void purify() {
+        System.out.println("Purifying clarified ghee using a fine filter");
+    }
+}

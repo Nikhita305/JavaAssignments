@@ -17,4 +17,9 @@ public class Robber implements Thief {
     public void hide() {
         System.out.println("Robber is hiding in a safe place");
     }
+
+    @Override
+    public void plan() {
+        System.out.println("Running plan in Robber");
+    }
 }

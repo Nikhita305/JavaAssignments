@@ -17,4 +17,9 @@ public class Cash implements Money {
     public void spend() {
         System.out.println("Spending money on goods and services");
     }
+
+    @Override
+    public void invest() {
+        System.out.println("Running invest in Cash");
+    }
 }

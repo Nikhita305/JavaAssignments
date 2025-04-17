@@ -17,4 +17,9 @@ public class SpaceRocket implements Rocket {
     public void land() {
         System.out.println("Landing the space rocket safely");
     }
+
+    @Override
+    public void checkStatus() {
+        System.out.println("Running checkStatus in SpaceRocket");
+    }
 }

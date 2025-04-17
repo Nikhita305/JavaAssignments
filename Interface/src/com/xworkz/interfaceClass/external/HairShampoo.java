@@ -17,4 +17,9 @@ public class HairShampoo implements Shampoo {
     public void rinse() {
         System.out.println("Rinsing the shampoo out of the hair");
     }
+
+    @Override
+    public void fragrance() {
+        System.out.println("The shampoo has a refreshing fragrance");
+    }
 }

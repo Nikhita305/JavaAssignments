@@ -17,4 +17,9 @@ public class CeilingFan implements Fan {
     public void turnOff() {
         System.out.println("Turning off the ceiling fan");
     }
+
+    @Override
+    public void oscillate() {
+        System.out.println("Running oscillate in CeilingFan");
+    }
 }

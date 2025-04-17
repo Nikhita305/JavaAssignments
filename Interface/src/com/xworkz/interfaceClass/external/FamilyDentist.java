@@ -15,4 +15,8 @@ public class FamilyDentist implements Dentist {
     public void removeTooth() {
         System.out.println("Removing tooth with care");
     }
+    @Override
+    public void add(){
+        System.out.println("Ruuning add in FamilyDenstist");
+    }
 }

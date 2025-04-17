@@ -17,4 +17,9 @@ public class MaxValue implements Max {
     public void reset() {
         System.out.println("Resetting the maximum value");
     }
+
+    @Override
+    public void log() {
+        System.out.println("Logging the max value calculation and reset operations");
+    }
 }

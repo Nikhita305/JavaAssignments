@@ -17,4 +17,9 @@ public class KingSizeBed implements Bed {
     public void sleep() {
         System.out.println("Sleeping on the king-size bed");
     }
+
+    @Override
+    public void relax() {
+        System.out.println("Relaxing on the king-size bed");
+    }
 }

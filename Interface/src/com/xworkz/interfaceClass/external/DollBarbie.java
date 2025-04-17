@@ -17,4 +17,9 @@ public class DollBarbie implements Barbie {
     public void collect() {
         System.out.println("Collecting different Barbie dolls");
     }
+
+    @Override
+    public void display() {
+        System.out.println("Displaying the Barbie dolls in a showcase");
+    }
 }

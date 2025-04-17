@@ -17,4 +17,9 @@ public class RiverWater implements Water {
     public void store() {
         System.out.println("Storing water in a reservoir");
     }
+
+    @Override
+    public void filter() {
+        System.out.println("Filtering the river water for impurities");
+    }
 }

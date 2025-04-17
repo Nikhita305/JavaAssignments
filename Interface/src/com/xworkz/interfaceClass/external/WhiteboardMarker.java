@@ -17,4 +17,9 @@ public class WhiteboardMarker implements Marker {
     public void refill() {
         System.out.println("Refilling the whiteboard marker");
     }
+
+    @Override
+    public void checkInkLevel() {
+        System.out.println("Checking the ink level of the whiteboard marker carefully");
+    }
 }

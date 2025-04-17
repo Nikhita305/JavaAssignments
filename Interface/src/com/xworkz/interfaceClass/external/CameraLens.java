@@ -17,4 +17,9 @@ public class CameraLens implements Lens {
     public void clean() {
         System.out.println("Cleaning the camera lens");
     }
+
+    @Override
+    public void adjust() {
+        System.out.println("Adjusting the camera lens for high-definition clarity");
+    }
 }

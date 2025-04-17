@@ -17,4 +17,9 @@ public class CommercialPilot implements Pilot {
     public void land() {
         System.out.println("Commercial pilot landing safely at destination");
     }
+
+    @Override
+    public void communicate() {
+        System.out.println("Commercial pilot communicating with ATC and passengers");
+    }
 }

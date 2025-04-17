@@ -17,4 +17,13 @@ public class MachineLearning implements AI {
     public void optimize() {
         System.out.println("Machine learning model is optimizing its performance");
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+    @Override
+    public void delete(){
+        System.out.println("Ruuning Delete in AI");
+    }
 }

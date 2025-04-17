@@ -17,4 +17,9 @@ public class ProfessionalBarber implements Barber {
     public void trimBeard() {
         System.out.println("Trimming the beard to perfection");
     }
+
+    @Override
+    public void sanitize() {
+        System.out.println("Running sanitize in ProfessionalBarber");
+    }
 }

@@ -17,4 +17,9 @@ public class BathTowel implements Towel {
     public void wash() {
         System.out.println("Washing the bath towel for reuse");
     }
+
+    @Override
+    public void hang() {
+        System.out.println("Hanging the bath towel to dry");
+    }
 }

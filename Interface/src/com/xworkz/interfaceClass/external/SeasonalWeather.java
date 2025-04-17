@@ -17,4 +17,9 @@ public class SeasonalWeather implements Weather {
     public void stabilize() {
         System.out.println("The weather is stabilizing after the storm");
     }
+
+    @Override
+    public void warn() {
+        System.out.println("Warning about potential storms as seasons change");
+    }
 }

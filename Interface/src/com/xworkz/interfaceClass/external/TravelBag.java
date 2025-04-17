@@ -17,4 +17,9 @@ public class TravelBag implements Bag {
     public void unpack() {
         System.out.println("Unpacking items from the travel bag");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("Running clean in TravelBag");
+    }
 }

@@ -17,4 +17,9 @@ public class FamilyHome implements Home {
     public void organize() {
         System.out.println("Organizing the home for a better living space");
     }
+
+    @Override
+    public void maintain() {
+        System.out.println("Running maintain in FamilyHome");
+    }
 }

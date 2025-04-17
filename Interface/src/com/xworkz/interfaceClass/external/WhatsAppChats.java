@@ -17,4 +17,9 @@ public class WhatsAppChats implements Chats {
     public void shareFile() {
         System.out.println("Sharing a file on WhatsApp");
     }
+
+    @Override
+    public void videoCall() {
+        System.out.println("Making a video call on WhatsApp");
+    }
 }

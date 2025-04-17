@@ -17,4 +17,9 @@ public class HighSchool implements School {
     public void holdEvents() {
         System.out.println("Holding cultural and sports events");
     }
+
+    @Override
+    public void manage() {
+        System.out.println("Running manage in HighSchool");
+    }
 }

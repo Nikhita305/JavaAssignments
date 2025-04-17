@@ -17,4 +17,9 @@ public class HairClip implements Clip {
     public void remove() {
         System.out.println("Removing the hair clip from the hair");
     }
+
+    @Override
+    public void adjust() {
+        System.out.println("Adjusting the hair clip for better fit");
+    }
 }

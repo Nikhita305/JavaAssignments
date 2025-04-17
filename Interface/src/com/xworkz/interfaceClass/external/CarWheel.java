@@ -17,4 +17,9 @@ public class CarWheel implements Wheel {
     public void repair() {
         System.out.println("Repairing the car wheel");
     }
+
+    @Override
+    public void balance() {
+        System.out.println("Balancing the car wheel with precision");
+    }
 }

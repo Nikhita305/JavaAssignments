@@ -17,4 +17,10 @@ public class CollegeStudent implements Student {
     public void writeExam() {
         System.out.println("College student is writing semester exams");
     }
+
+    @Override
+    public void participate() {
+        System.out.println("College student is participating");
+    }
+
 }

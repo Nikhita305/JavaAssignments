@@ -17,4 +17,9 @@ public class InstantNoodles implements Noodles {
     public void serve() {
         System.out.println("Serving the noodles in a bowl");
     }
+
+    @Override
+    public void cook() {
+        System.out.println("Cooking instant noodles with extra spices");
+    }
 }

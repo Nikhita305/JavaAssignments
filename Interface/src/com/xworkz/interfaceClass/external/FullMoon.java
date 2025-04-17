@@ -17,4 +17,9 @@ public class FullMoon implements Moon {
     public void set() {
         System.out.println("The full moon is setting after a long night");
     }
+
+    @Override
+    public void reflect() {
+        System.out.println("The full moon is reflecting sunlight beautifully");
+    }
 }

@@ -17,4 +17,9 @@ public class MusicFest implements Fest {
     public void celebrate() {
         System.out.println("Celebrating the music festival with performances and crowd participation");
     }
+
+    @Override
+    public void event() {
+        System.out.println("Running event in MusicFest");
+    }
 }

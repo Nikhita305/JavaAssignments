@@ -17,4 +17,9 @@ public class TraditionalWedding implements Wedding {
     public void remember() {
         System.out.println("Remembering the joyous wedding moments");
     }
+
+    @Override
+    public void enjoy() {
+        System.out.println("Running enjoy in TraditionalWedding");
+    }
 }

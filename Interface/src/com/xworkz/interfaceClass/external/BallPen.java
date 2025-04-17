@@ -17,4 +17,9 @@ public class BallPen implements Pen {
     public void close() {
         System.out.println("Closing the ball pen");
     }
+
+    @Override
+    public void checkInk() {
+        System.out.println("Checking ink level in the ball pen");
+    }
 }

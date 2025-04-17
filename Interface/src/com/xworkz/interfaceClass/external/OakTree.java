@@ -17,4 +17,9 @@ public class OakTree implements Tree {
     public void shedLeaves() {
         System.out.println("The oak tree sheds its leaves in the fall");
     }
+
+    @Override
+    public void bloom() {
+        System.out.println("The oak tree blooms with small flowers in spring");
+    }
 }

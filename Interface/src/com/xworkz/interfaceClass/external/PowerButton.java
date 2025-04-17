@@ -17,4 +17,9 @@ public class PowerButton implements Button {
     public void glow() {
         System.out.println("Power button is glowing");
     }
+
+    @Override
+    public void reset() {
+        System.out.println("Resetting the power button state");
+    }
 }

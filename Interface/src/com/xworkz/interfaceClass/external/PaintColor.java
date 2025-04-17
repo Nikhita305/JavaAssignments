@@ -17,4 +17,9 @@ public class PaintColor implements Color {
     public void fade() {
         System.out.println("The paint color starts to fade over time");
     }
+
+    @Override
+    public void treatment() {
+        System.out.println("Running color treatment in PaintColor");
+    }
 }

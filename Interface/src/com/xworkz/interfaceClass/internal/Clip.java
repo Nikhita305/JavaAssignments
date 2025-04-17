@@ -4,4 +4,8 @@ public interface Clip {
     void attach();
     void secure();
     void remove();
+
+    default void adjust() {
+        System.out.println("Adjusting the clip position");
+    }
 }

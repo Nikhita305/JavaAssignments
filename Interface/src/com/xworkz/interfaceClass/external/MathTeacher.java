@@ -17,4 +17,9 @@ public class MathTeacher implements Teacher {
     public void holdMeeting() {
         System.out.println("Math teacher is holding a faculty meeting");
     }
+
+    @Override
+    public void prepare() {
+        System.out.println("Running prepare in MathTeacher");
+    }
 }

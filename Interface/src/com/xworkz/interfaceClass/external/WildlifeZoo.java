@@ -17,4 +17,9 @@ public class WildlifeZoo implements Zoo {
     public void conserveSpecies() {
         System.out.println("Conserving endangered species in the zoo");
     }
+
+    @Override
+    public void activities() {
+        System.out.println("Running zoo activities in WildlifeZoo");
+    }
 }

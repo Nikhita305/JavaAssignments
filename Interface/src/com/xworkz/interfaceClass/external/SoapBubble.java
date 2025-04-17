@@ -17,4 +17,9 @@ public class SoapBubble implements Bubble {
     public void floatInAir() {
         System.out.println("Watching the soap bubble float in the air");
     }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Soap bubble makes a gentle popping sound");
+    }
 }

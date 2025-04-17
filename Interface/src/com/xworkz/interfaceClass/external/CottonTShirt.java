@@ -17,4 +17,9 @@ public class CottonTShirt implements TShirt {
     public void fold() {
         System.out.println("Folding the cotton T-shirt");
     }
+
+    @Override
+    public void iron() {
+        System.out.println("Ironing the cotton T-shirt to remove wrinkles");
+    }
 }

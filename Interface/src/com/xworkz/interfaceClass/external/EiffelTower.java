@@ -17,4 +17,9 @@ public class EiffelTower implements Tower {
     public void maintain() {
         System.out.println("Maintaining the Eiffel Tower for preservation");
     }
+
+    @Override
+    public void attractVisitors() {
+        System.out.println("Attracting thousands of visitors to the Eiffel Tower");
+    }
 }

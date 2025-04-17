@@ -17,4 +17,9 @@ public class ClassicLays implements Lays {
     public void share() {
         System.out.println("Sharing Lays with friends");
     }
+
+    @Override
+    public void displayFlavor() {
+        System.out.println("This is a special flavor of Lays.");
+    }
 }

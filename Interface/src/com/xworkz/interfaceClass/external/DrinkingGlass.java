@@ -17,4 +17,9 @@ public class DrinkingGlass implements Glass {
     public void breakGlass() {
         System.out.println("Breaking the drinking glass");
     }
+
+    @Override
+    public void recycle() {
+        System.out.println("Recycling the drinking glass after use");
+    }
 }

@@ -17,4 +17,9 @@ public class BalletDance implements Dance {
     public void choreograph() {
         System.out.println("Choreographing a new ballet performance");
     }
+
+    @Override
+    public void warmUp() {
+        System.out.println("Warming up before ballet practice");
+    }
 }

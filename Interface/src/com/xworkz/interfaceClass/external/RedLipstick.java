@@ -17,4 +17,9 @@ public class RedLipstick implements Lipstick {
     public void checkColor() {
         System.out.println("Checking the lipstick color");
     }
+
+    @Override
+    public void checkQuality() {
+        System.out.println("Checking the quality of the red lipstick");
+    }
 }

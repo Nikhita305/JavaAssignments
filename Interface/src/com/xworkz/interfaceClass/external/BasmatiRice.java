@@ -17,4 +17,9 @@ public class BasmatiRice implements Rice {
     public void harvest() {
         System.out.println("Harvesting the basmati rice from the field");
     }
+
+    @Override
+    public void soak() {
+        System.out.println("Soaking the basmati rice for a few hours before cooking");
+    }
 }

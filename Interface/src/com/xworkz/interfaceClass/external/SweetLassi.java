@@ -17,4 +17,9 @@ public class SweetLassi implements Lassi {
     public void drink() {
         System.out.println("Drinking the sweet and chilled lassi");
     }
+
+    @Override
+    public void garnish() {
+        System.out.println("Running garnish in SweetLassi");
+    }
 }

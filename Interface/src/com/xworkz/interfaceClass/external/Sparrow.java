@@ -17,4 +17,9 @@ public class Sparrow implements Bird {
     public void buildNest() {
         System.out.println("The sparrow is building a nest in the tree");
     }
+
+    @Override
+    public void migrate() {
+        System.out.println("The sparrow is migrating to warmer regions for the winter");
+    }
 }

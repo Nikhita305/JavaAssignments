@@ -17,4 +17,9 @@ public class ZudioStore implements Zudio {
     public void discount() {
         System.out.println("Offering discounts");
     }
+
+    @Override
+    public void offerSeasonalSale() {
+        System.out.println("Offering exclusive seasonal sale in Zudio store");
+    }
 }

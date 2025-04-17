@@ -17,4 +17,9 @@ public class HouseKey implements Key {
     public void remove() {
         System.out.println("Removing the house key from the lock");
     }
+
+    @Override
+    public void keyInfo() {
+        System.out.println("Running keyInfo in HouseKey");
+    }
 }

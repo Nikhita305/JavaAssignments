@@ -17,4 +17,9 @@ public class SilverChain implements Chain {
     public void remove() {
         System.out.println("Removing the silver chain");
     }
+
+    @Override
+    public void shine() {
+        System.out.println("Running shine in SilverChain");
+    }
 }

@@ -17,4 +17,9 @@ public class ChocolateOreo implements Oreo {
     public void share() {
         System.out.println("Sharing the Oreo with friends");
     }
+
+    @Override
+    public void enjoy() {
+        System.out.println("Running enjoy in ChocolateOreo");
+    }
 }

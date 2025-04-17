@@ -17,4 +17,9 @@ public class JungleMonkey implements Monkey {
     public void eatBanana() {
         System.out.println("Monkey is eating a banana");
     }
+
+    @Override
+    public void play() {
+        System.out.println("Running play in JungleMonkey");
+    }
 }

@@ -17,4 +17,9 @@ public class FloweringPlant implements Plant {
     public void flower() {
         System.out.println("The plant is flowering");
     }
+
+    @Override
+    public void shedLeaves() {
+        System.out.println("The flowering plant is shedding its leaves in autumn");
+    }
 }

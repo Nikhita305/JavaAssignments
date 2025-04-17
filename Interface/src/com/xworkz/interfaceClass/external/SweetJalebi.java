@@ -17,4 +17,9 @@ public class SweetJalebi implements Jalebi {
     public void serve() {
         System.out.println("Serving the hot and sweet jalebi");
     }
+
+    @Override
+    public void garnish() {
+        System.out.println("Running garnish in SweetJalebi");
+    }
 }

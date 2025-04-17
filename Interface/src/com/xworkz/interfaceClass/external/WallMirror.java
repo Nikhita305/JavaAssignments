@@ -17,4 +17,9 @@ public class WallMirror implements Mirror {
     public void frame() {
         System.out.println("Framing the mirror with an elegant border");
     }
+
+    @Override
+    public void shine() {
+        System.out.println("The wall mirror shines even more beautifully");
+    }
 }

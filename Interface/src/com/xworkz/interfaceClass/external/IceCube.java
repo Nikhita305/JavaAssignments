@@ -17,4 +17,9 @@ public class IceCube implements Ice {
     public void melt() {
         System.out.println("Melting the ice cubes");
     }
+
+    @Override
+    public void chill() {
+        System.out.println("Running chill in IceCube");
+    }
 }

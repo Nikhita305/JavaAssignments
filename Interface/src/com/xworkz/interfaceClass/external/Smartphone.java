@@ -17,4 +17,9 @@ public class Smartphone implements Mobile {
     public void browseInternet() {
         System.out.println("Browsing the internet on the smartphone");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in Smartphone");
+    }
 }

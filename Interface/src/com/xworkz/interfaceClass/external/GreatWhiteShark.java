@@ -17,4 +17,9 @@ public class GreatWhiteShark implements Shark {
     public void rest() {
         System.out.println("The great white shark is resting in deep waters");
     }
+
+    @Override
+    public void breach() {
+        System.out.println("The great white shark breaches out of the water dramatically");
+    }
 }

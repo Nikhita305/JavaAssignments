@@ -17,4 +17,9 @@ public class CarPetrol implements Petrol {
     public void refill() {
         System.out.println("Refilling the petrol tank");
     }
+
+    @Override
+    public void cleanTank() {
+        System.out.println("Cleaning the car's petrol tank with special solutions");
+    }
 }

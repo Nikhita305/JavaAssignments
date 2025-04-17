@@ -17,4 +17,9 @@ public class Lollipop implements Candy {
     public void distribute() {
         System.out.println("Distributing lollipops to kids");
     }
+
+    @Override
+    public void decorate() {
+        System.out.println("Running decorate in Lollipop");
+    }
 }

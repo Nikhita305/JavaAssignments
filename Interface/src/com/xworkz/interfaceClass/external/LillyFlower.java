@@ -17,4 +17,9 @@ public class LillyFlower implements Lilly {
     public void wilt() {
         System.out.println("The Lilly is wilting");
     }
+
+    @Override
+    public void water() {
+        System.out.println("Watering the Lilly flower carefully");
+    }
 }

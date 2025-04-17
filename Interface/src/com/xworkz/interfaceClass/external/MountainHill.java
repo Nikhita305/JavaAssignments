@@ -17,4 +17,9 @@ public class MountainHill implements Hill {
     public void descend() {
         System.out.println("Descending the mountain hill");
     }
+
+    @Override
+    public void rest() {
+        System.out.println("Resting on the mountain hill before moving");
+    }
 }

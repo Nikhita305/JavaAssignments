@@ -17,4 +17,9 @@ public class SilverAnklet implements Anklet {
     public void remove() {
         System.out.println("Removing the silver anklet");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("Running clean in SilverAnklet");
+    }
 }

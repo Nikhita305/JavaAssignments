@@ -17,4 +17,9 @@ public class ColorfulRainbow implements Rainbow {
     public void fade() {
         System.out.println("The rainbow is slowly fading away");
     }
+
+    @Override
+    public void admire() {
+        System.out.println("Running admire in ColorfulRainbow");
+    }
 }

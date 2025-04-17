@@ -17,4 +17,9 @@ public class RedGrapes implements Grapes {
     public void sell() {
         System.out.println("Selling red grapes at the market");
     }
+
+    @Override
+    public void wash() {
+        System.out.println("Running wash in RedGrapes");
+    }
 }

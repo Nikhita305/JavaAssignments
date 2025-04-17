@@ -17,4 +17,9 @@ public class ShoppingMall implements Mall {
     public void offerDeals() {
         System.out.println("Offering deals and discounts at the shopping mall");
     }
+
+    @Override
+    public void offerLoyaltyProgram() {
+        System.out.println("Offering exclusive loyalty benefits to our regular shoppers");
+    }
 }
