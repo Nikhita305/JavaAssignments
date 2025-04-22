@@ -1,0 +1,5 @@
+package com.xworkz.interfaceC.internal;
+
+public interface Charger {
+    void supplyPower();
+}
